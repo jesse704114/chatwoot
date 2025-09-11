@@ -10,7 +10,7 @@ public/system
 tmp
 .codeclimate.yml
 public/packs
-node_modules
+**/node_modules
 vendor/bundle
 .DS_Store
 *.swp

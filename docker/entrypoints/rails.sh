@@ -30,5 +30,35 @@ do
   sleep 2;
 done
 
+# Database initialization and migration
+echo "Checking database status..."
+
+# Check if database exists
+DB_EXISTS=$(bundle exec rails runner "puts ActiveRecord::Base.connection.database_exists?" 2>/dev/null || echo "false")
+
+if [ "$DB_EXISTS" = "false" ]; then
+  echo "Database does not exist. Creating database..."
+  bundle exec rails db:create
+
+  echo "Running database migrations..."
+  bundle exec rails db:migrate
+
+  echo "Loading database seeds..."
+  bundle exec rails db:seed
+
+  # Check for pending migrations
+  PENDING_MIGRATIONS=$(bundle exec rails db:migrate:status | grep "down" | wc -l)
+
+  if [ "$PENDING_MIGRATIONS" -gt 0 ]; then
+    echo "Found $PENDING_MIGRATIONS pending migrations. Running migrations..."
+    bundle exec rails db:migrate
+    echo "Migrations completed."
+  else
+    echo "No pending migrations found."
+  fi
+fi
+
+echo "Database setup completed. Starting application..."
+
 # Execute the main process of the container
 exec "$@"
