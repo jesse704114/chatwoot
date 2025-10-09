@@ -112,7 +112,6 @@
           "API": {
             "SUCCESS": "自動解決設定已成功更新",
             "ERROR": "更新自動解決設定失敗"
-          }
         },
         "UPDATE_BUTTON": "更新",
         "MESSAGE_LABEL": "自訂解決訊息",
