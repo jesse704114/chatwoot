@@ -1,30 +1,5 @@
 {
-  "INTEGRATION_SETTINGS": {
-    "SHOPIFY": {
-      "DELETE": {
-        "TITLE": "Delete Shopify Integration",
-        "MESSAGE": "Are you sure you want to delete the Shopify integration?"
-      },
-      "STORE_URL": {
-        "TITLE": "Connect Shopify Store",
-        "LABEL": "Store URL",
-        "PLACEHOLDER": "your-store.myshopify.com",
-        "HELP": "Enter your Shopify store's myshopify.com URL",
-        "CANCEL": "取消",
-        "SUBMIT": "Connect Store"
-      },
-      "ERROR": "There was an error connecting to Shopify. Please try again or contact support if the issue persists."
-    },
-    "HEADER": "整合方式",
-    "DESCRIPTION": "Chatwoot integrates with multiple tools and services to improve your team's efficiency. Explore the list below to configure your favorite apps.",
-    "LEARN_MORE": "Learn more about integrations",
-    "LOADING": "Fetching integrations",
-    "CAPTAIN": {
-      "DISABLED": "Captain is not enabled on your account.",
-      "CLICK_HERE_TO_CONFIGURE": "Click here to configure",
-      "LOADING_CONSOLE": "Loading Captain Console...",
-      "FAILED_TO_LOAD_CONSOLE": "Failed to load Captain Console. Please refresh and try again."
-    },
+  "INTEGRATIONS": {
     "WEBHOOK": {
       "SUBSCRIBED_EVENTS": "Subscribed Events",
       "LEARN_MORE": "Learn more about webhooks",
@@ -34,28 +9,28 @@
         "SUBSCRIPTIONS": {
           "LABEL": "Events",
           "EVENTS": {
-            "CONVERSATION_CREATED": "Conversation Created",
+            "CONVERSATION_CREATED": "Conversation 已創建",
             "CONVERSATION_STATUS_CHANGED": "Conversation Status Changed",
-            "CONVERSATION_UPDATED": "Conversation Updated",
-            "MESSAGE_CREATED": "Message created",
-            "MESSAGE_UPDATED": "Message updated",
+            "CONVERSATION_UPDATED": "Conversation 已更新",
+            "MESSAGE_CREATED": "Message 已創建",
+            "MESSAGE_UPDATED": "Message 已更新",
             "WEBWIDGET_TRIGGERED": "Live chat widget opened by the user",
-            "CONTACT_CREATED": "Contact created",
-            "CONTACT_UPDATED": "Contact updated",
+            "CONTACT_CREATED": "Contact 已創建",
+            "CONTACT_UPDATED": "Contact 已更新",
             "CONVERSATION_TYPING_ON": "Conversation Typing On",
             "CONVERSATION_TYPING_OFF": "Conversation Typing Off"
           }
         },
         "NAME": {
-          "LABEL": "Webhook Name",
-          "PLACEHOLDER": "Enter the name of the webhook"
+          "LABEL": "Webhook 名稱",
+          "PLACEHOLDER": "輸入 webhook 名稱"
         },
         "END_POINT": {
           "LABEL": "Webhook 網址",
           "PLACEHOLDER": "Example: {webhookExampleURL}",
           "ERROR": "請輸入一個有效的 URL"
         },
-        "EDIT_SUBMIT": "Update webhook",
+        "EDIT_SUBMIT": "更新 webhook",
         "ADD_SUBMIT": "建立 webhook"
       },
       "TITLE": "回呼接口位址",
@@ -66,274 +41,96 @@
       "SEARCH_404": "没有任何項目符合此查詢",
       "SIDEBAR_TXT": "<p><b>Webhooks</b> </p> <p>Webhooks 是 HTTP 回呼，可以為每個帳戶定義的。 他們是由諸如在 Chatwoot 中建立消息等事件所觸發的。您可以為此帳戶建立多個 webhook。 <br /><br /> 建立一個 <b>webhook</b>, 點擊 <b>建立新的 webhook</b> 按鈕。 您也可以通過點擊刪除按鈕刪除任何現有的 webhook。</p>",
       "LIST": {
-        "404": "此帳戶没有配置 webhooks。",
-        "TITLE": "管理 webhooks",
+        "404": "此帳號沒有設定 webhooks。",
+        "TITLE": "管理 Webhooks",
+        "DESC": "Webhooks 允許您將關於 Chatwoot 中發生的事情的即時資訊傳送到外部應用程式。",
         "TABLE_HEADER": {
-          "WEBHOOK_ENDPOINT": "Webhook 端点",
+          "END_POINT": "Webhook 網址",
           "ACTIONS": "操作"
         }
       },
-      "EDIT": {
-        "BUTTON_TEXT": "編輯",
-        "TITLE": "編輯 Webhook",
-        "API": {
-          "SUCCESS_MESSAGE": "Webhook configuration updated successfully",
-          "ERROR_MESSAGE": "無法連接伺服器，請稍後再試"
-        }
-      },
       "ADD": {
-        "CANCEL": "取消操作",
-        "TITLE": "建立新的 webhook",
-        "API": {
-          "SUCCESS_MESSAGE": "Webhook configuration added successfully",
-          "ERROR_MESSAGE": "無法連接伺服器，請稍後再試"
-        }
+        "TITLE": "新增 Webhook",
+        "DESC": "Webhook 事件為您提供關於您帳號中發生事件的即時資訊。請輸入一個有效的 URL 以設定回呼。",
+        "CANCEL": "取消",
+        "SUBMIT": "建立"
       },
       "DELETE": {
-        "BUTTON_TEXT": "刪除",
+        "TITLE": "刪除 Webhook",
+        "DESC": "您確定要刪除此 webhook 嗎？此操作不可復原。",
+        "YES": "是，刪除",
+        "NO": "否，保留",
         "API": {
           "SUCCESS_MESSAGE": "Webhook 刪除成功",
-          "ERROR_MESSAGE": "無法連接伺服器，請稍後再試"
+          "ERROR_MESSAGE": "無法刪除 Webhook，請重試"
+        }
+      },
+      "EDIT": {
+        "TITLE": "編輯 Webhook",
+        "DESC": "Webhook 事件為您提供關於您帳號中發生事件的即時資訊。請輸入一個有效的 URL 以設定回呼。",
+        "CANCEL": "取消",
+        "SUBMIT": "更新",
+        "API": {
+          "SUCCESS_MESSAGE": "Webhook 更新成功",
+          "ERROR_MESSAGE": "無法更新 Webhook，請重試"
+        }
+      },
+      "FORM": {
+        "END_POINT": {
+          "LABEL": "Webhook 網址",
+          "PLACEHOLDER": "範例：https://example.com/api/webhook",
+          "ERROR": "請輸入一個有效的 URL"
         },
-        "CONFIRM": {
-          "TITLE": "確認刪除",
-          "MESSAGE": "Are you sure to delete the webhook? ({webhookURL})",
-          "YES": "是，刪除 ",
-          "NO": "否，保留它"
+        "SUBSCRIPTIONS": {
+          "LABEL": "事件",
+          "EVENTS": {
+            "CONVERSATION_CREATED": "已建立對話",
+            "CONVERSATION_STATUS_CHANGED": "對話狀態已變更",
+            "CONVERSATION_UPDATED": "對話已更新",
+            "MESSAGE_CREATED": "訊息已建立",
+            "MESSAGE_UPDATED": "訊息已更新",
+            "WEBWIDGET_TRIGGERED": "聊天小工具已觸發",
+            "CONTACT_CREATED": "聯絡人已建立",
+            "CONTACT_UPDATED": "聯絡人已更新"
+          }
         }
       }
     },
     "SLACK": {
-      "DELETE": "刪除",
-      "DELETE_CONFIRMATION": {
-        "TITLE": "Delete the integration",
-        "MESSAGE": "Are you sure you want to delete the integration? Doing so will result in the loss of access to conversations on your Slack workspace."
-      },
       "HELP_TEXT": {
-        "TITLE": "Using Slack Integration",
-        "BODY": "With this integration, all of your incoming conversations will be synced to the ***{selectedChannelName}*** channel in your Slack workspace. You can manage all your customer conversations right within the channel and never miss a message.\n\nHere are the main features of the integration:\n\n**Respond to conversations from within Slack:** To respond to a conversation in the ***{selectedChannelName}*** Slack channel, simply type out your message and send it as a thread. This will create a response back to the customer through Chatwoot. It's that simple!\n\n **Create private notes:** If you want to create private notes instead of replies, start your message with ***`note:`***. This ensures that your message is kept private and won't be visible to the customer.\n\n**Associate an agent profile:** If the person who replied on Slack has an agent profile in Chatwoot under the same email, the replies will be associated with that agent profile automatically. This means you can easily track who said what and when. On the other hand, when the replier doesn't have an associated agent profile, the replies will appear from the bot profile to the customer.",
-        "SELECTED": "selected"
-      },
-      "SELECT_CHANNEL": {
-        "OPTION_LABEL": "Select a channel",
-        "UPDATE": "更新",
-        "BUTTON_TEXT": "Connect channel",
-        "DESCRIPTION": "Your Slack workspace is now linked with Chatwoot. However, the integration is currently inactive. To activate the integration and connect a channel to Chatwoot, please click the button below.\n\n**Note:** If you are attempting to connect a private channel, add the Chatwoot app to the Slack channel before proceeding with this step.",
-        "ATTENTION_REQUIRED": "Attention required",
-        "EXPIRED": "Your Slack integration has expired. To continue receiving messages on Slack, please delete the integration and connect your workspace again."
-      },
-      "UPDATE_ERROR": "There was an error updating the integration, please try again",
-      "UPDATE_SUCCESS": "The channel is connected successfully",
-      "FAILED_TO_FETCH_CHANNELS": "There was an error fetching the channels from Slack, please try again"
+        "TITLE": "使用 Slack 整合",
+        "BODY": "<p>Chatwoot 會將所有收到的新對話同步到您設定的 Slack 頻道中。</p><p>點擊<b>新增至 Slack</b>按鈕以設定您的整合。</p><p>在授權過程中，Chatwoot 會請求在您的 Slack 工作區中執行操作的權限。</p><p>一旦您授權了該應用程式，Chatwoot 將開始將對話同步到您選擇的頻道。</p><p>在 Slack 中，您可以透過回覆對話串來回覆客戶的訊息。</p>"
+      }
     },
     "DYTE": {
-      "CLICK_HERE_TO_JOIN": "Click here to join",
-      "LEAVE_THE_ROOM": "Leave the room",
-      "START_VIDEO_CALL_HELP_TEXT": "Start a new video call with the customer",
-      "JOIN_ERROR": "There was an error joining the call, please try again",
-      "CREATE_ERROR": "There was an error creating a meeting link, please try again"
-    },
-    "OPEN_AI": {
-      "AI_ASSIST": "AI Assist",
-      "WITH_AI": " {option} with AI ",
-      "OPTIONS": {
-        "REPLY_SUGGESTION": "Reply Suggestion",
-        "SUMMARIZE": "Summarize",
-        "REPHRASE": "Improve Writing",
-        "FIX_SPELLING_GRAMMAR": "Fix Spelling and Grammar",
-        "SHORTEN": "Shorten",
-        "EXPAND": "Expand",
-        "MAKE_FRIENDLY": "Change message tone to friendly",
-        "MAKE_FORMAL": "Use formal tone",
-        "SIMPLIFY": "Simplify"
+      "TITLE": "Dyte",
+      "DESCRIPTION": "Dyte 是一個將影音功能整合到您應用程式的產品。透過此整合，您的客服可以直接從 Chatwoot 與客戶進行影音通話。",
+      "ACCOUNT_ID": {
+        "LABEL": "Dyte 組織 ID",
+        "PLACEHOLDER": "請輸入您的 Dyte 組織 ID",
+        "ERROR": "請輸入一個有效的組織 ID"
       },
-      "ASSISTANCE_MODAL": {
-        "DRAFT_TITLE": "Draft content",
-        "GENERATED_TITLE": "Generated content",
-        "AI_WRITING": "AI is writing",
-        "BUTTONS": {
-          "APPLY": "Use this suggestion",
-          "CANCEL": "取消"
-        }
+      "API_KEY": {
+        "LABEL": "Dyte API 金鑰",
+        "PLACEHOLDER": "請輸入您的 Dyte API 金鑰",
+        "ERROR": "請輸入一個有效的 API 金鑰"
       },
-      "CTA_MODAL": {
-        "TITLE": "Integrate with OpenAI",
-        "DESC": "Bring advanced AI features to your dashboard with OpenAI's GPT models. To begin, enter the API key from your OpenAI account.",
-        "KEY_PLACEHOLDER": "Enter your OpenAI API key",
-        "BUTTONS": {
-          "NEED_HELP": "Need help?",
-          "DISMISS": "Dismiss",
-          "FINISH": "Finish Setup"
-        },
-        "DISMISS_MESSAGE": "You can setup OpenAI integration later Whenever you want.",
-        "SUCCESS_MESSAGE": "OpenAI integration setup successfully"
-      },
-      "TITLE": "Improve With AI",
-      "SUMMARY_TITLE": "Summary with AI",
-      "REPLY_TITLE": "Reply suggestion with AI",
-      "SUBTITLE": "An improved reply will be generated using AI, based on your current draft.",
-      "TONE": {
-        "TITLE": "Tone",
-        "OPTIONS": {
-          "PROFESSIONAL": "Professional",
-          "FRIENDLY": "Friendly"
-        }
-      },
-      "BUTTONS": {
-        "GENERATE": "Generate",
-        "GENERATING": "Generating...",
-        "CANCEL": "取消"
-      },
-      "GENERATE_ERROR": "There was an error processing the content, please try again"
-    },
-    "DELETE": {
-      "BUTTON_TEXT": "刪除",
-      "API": {
-        "SUCCESS_MESSAGE": "已成功刪除"
-      }
-    },
-    "CONNECT": {
-      "BUTTON_TEXT": "連接"
-    },
-    "DASHBOARD_APPS": {
-      "TITLE": "Dashboard Apps",
-      "HEADER_BTN_TXT": "Add a new dashboard app",
-      "SIDEBAR_TXT": "<p><b>Dashboard Apps</b></p><p>Dashboard Apps allow organizations to embed an application inside the Chatwoot dashboard to provide the context for customer support agents. This feature allows you to create an application independently and embed that inside the dashboard to provide user information, their orders, or their previous payment history.</p><p>When you embed your application using the dashboard in Chatwoot, your application will get the context of the conversation and contact as a window event. Implement a listener for the message event on your page to receive the context.</p><p>To add a new dashboard app, click on the button 'Add a new dashboard app'.</p>",
-      "DESCRIPTION": "Dashboard Apps allow organizations to embed an application inside the dashboard to provide the context for customer support agents. This feature allows you to create an application independently and embed that to provide user information, their orders, or their previous payment history.",
-      "LEARN_MORE": "Learn more about Dashboard Apps",
-      "LIST": {
-        "404": "There are no dashboard apps configured on this account yet",
-        "LOADING": "Fetching dashboard apps...",
-        "TABLE_HEADER": {
-          "NAME": "姓名",
-          "ENDPOINT": "Endpoint"
-        },
-        "EDIT_TOOLTIP": "編輯應用程式",
-        "DELETE_TOOLTIP": "刪除應用程式"
-      },
-      "FORM": {
-        "TITLE_LABEL": "姓名",
-        "TITLE_PLACEHOLDER": "Enter a name for your dashboard app",
-        "TITLE_ERROR": "A name for the dashboard app is required",
-        "URL_LABEL": "Endpoint",
-        "URL_PLACEHOLDER": "Enter the endpoint URL where your app is hosted",
-        "URL_ERROR": "A valid URL is required"
-      },
-      "CREATE": {
-        "HEADER": "Add a new dashboard app",
-        "FORM_SUBMIT": "送出",
-        "FORM_CANCEL": "取消",
-        "API_SUCCESS": "Dashboard app configured successfully",
-        "API_ERROR": "We couldn't create an app. Please try again later"
-      },
-      "UPDATE": {
-        "HEADER": "Edit dashboard app",
-        "FORM_SUBMIT": "更新",
-        "FORM_CANCEL": "取消",
-        "API_SUCCESS": "Dashboard app updated successfully",
-        "API_ERROR": "無法更新應用程式，請稍後再試。"
-      },
-      "DELETE": {
-        "CONFIRM_YES": "是，刪除",
-        "CONFIRM_NO": "否，保留",
-        "TITLE": "刪除確認",
-        "MESSAGE": "你確定要刪除應用程式 {appName} 嗎？",
-        "API_SUCCESS": "Dashboard app deleted successfully",
-        "API_ERROR": "We couldn't delete the app. Please try again later"
-      }
+      "SUBMIT": "連接",
+      "DISCONNECT": "斷開連接",
+      "SUCCESS_MESSAGE": "已成功連接 Dyte",
+      "DISCONNECT_SUCCESS_MESSAGE": "已成功斷開 Dyte 連接",
+      "ERROR_MESSAGE": "無法連接 Dyte，請檢查您的憑證並重試"
     },
     "LINEAR": {
-      "ADD_OR_LINK_BUTTON": "Create/Link Linear Issue",
-      "LOADING": "Fetching linear issues...",
-      "LOADING_ERROR": "There was an error fetching the linear issues, please try again",
-      "CREATE": "建立",
-      "LINK": {
-        "SEARCH": "Search issues",
-        "SELECT": "Select issue",
-        "TITLE": "連結",
-        "EMPTY_LIST": "No linear issues found",
-        "LOADING": "Loading",
-        "ERROR": "There was an error fetching the linear issues, please try again",
-        "LINK_SUCCESS": "Issue linked successfully",
-        "LINK_ERROR": "There was an error linking the issue, please try again",
-        "LINK_TITLE": "Conversation (#{conversationId}) with {name}"
+      "HELP_TEXT": {
+        "TITLE": "使用 Linear 整合",
+        "BODY": "<p>Chatwoot 與 Linear 整合，讓您能直接從對話中建立 Linear 議題。</p><p>要將您的 Chatwoot 帳號與 Linear 整合，請按照以下步驟操作：</p><p><b>步驟 1：</b>前往您 Linear 帳號中的 <a target=\"_blank\" href=\"https://linear.app/chatwoot/settings/api\">API 設定</a>。</p><p><b>步驟 2：</b>複製<b>個人 API 金鑰</b>。</p><p><b>步驟 3：</b>在 Chatwoot 中，前往整合設定並點擊 Linear 旁邊的<b>連接</b>。</p><p><b>步驟 4：</b>將 API 金鑰貼到輸入欄位中，然後點擊<b>連接</b>。</p><p>這樣就完成了！您現在可以在對話側邊欄中建立和連結 Linear 議題了。</p>"
       },
-      "ADD_OR_LINK": {
-        "TITLE": "Create/link linear issue",
-        "DESCRIPTION": "Create Linear issues from conversations, or link existing ones for seamless tracking.",
-        "FORM": {
-          "TITLE": {
-            "LABEL": "標題",
-            "PLACEHOLDER": "Enter title",
-            "REQUIRED_ERROR": "標題為必填"
-          },
-          "DESCRIPTION": {
-            "LABEL": "描述資訊",
-            "PLACEHOLDER": "Enter description"
-          },
-          "TEAM": {
-            "LABEL": "Team",
-            "PLACEHOLDER": "選擇團隊",
-            "SEARCH": "Search team",
-            "REQUIRED_ERROR": "Team is required"
-          },
-          "ASSIGNEE": {
-            "LABEL": "Assignee",
-            "PLACEHOLDER": "Select assignee",
-            "SEARCH": "Search assignee"
-          },
-          "PRIORITY": {
-            "LABEL": "優先程度",
-            "PLACEHOLDER": "Select priority",
-            "SEARCH": "Search priority"
-          },
-          "LABEL": {
-            "LABEL": "Label",
-            "PLACEHOLDER": "Select label",
-            "SEARCH": "Search label"
-          },
-          "STATUS": {
-            "LABEL": "狀態",
-            "PLACEHOLDER": "Select status",
-            "SEARCH": "Search status"
-          },
-          "PROJECT": {
-            "LABEL": "Project",
-            "PLACEHOLDER": "Select project",
-            "SEARCH": "Search project"
-          }
-        },
-        "CREATE": "建立",
-        "CANCEL": "取消",
-        "CREATE_SUCCESS": "Issue created successfully",
-        "CREATE_ERROR": "There was an error creating the issue, please try again",
-        "LOADING_TEAM_ERROR": "There was an error fetching the teams, please try again",
-        "LOADING_TEAM_ENTITIES_ERROR": "There was an error fetching the team entities, please try again"
-      },
-      "ISSUE": {
-        "STATUS": "狀態",
-        "PRIORITY": "優先程度",
-        "ASSIGNEE": "Assignee",
-        "LABELS": "標籤",
-        "CREATED_AT": "Created at {createdAt}"
-      },
-      "UNLINK": {
-        "TITLE": "Unlink",
-        "SUCCESS": "Issue unlinked successfully",
-        "ERROR": "There was an error unlinking the issue, please try again"
-      },
-      "NO_LINKED_ISSUES": "No linked issues found",
-      "DELETE": {
-        "TITLE": "Are you sure you want to delete the integration?",
-        "MESSAGE": "Are you sure you want to delete the integration?",
-        "CONFIRM": "是的，刪除",
-        "CANCEL": "取消"
-      },
-      "CTA": {
-        "TITLE": "Connect to Linear",
-        "AGENT_DESCRIPTION": "Linear workspace is not connected. Request your administrator to connect a workspace to use this integration.",
-        "DESCRIPTION": "Linear workspace is not connected. Click the button below to connect your workspace to use this integration.",
-        "BUTTON_TEXT": "Connect Linear workspace"
+      "FORM": {
+        "API_KEY": {
+          "LABEL": "Linear API 金鑰",
+          "PLACEHOLDER": "請輸入您的 Linear API 金鑰"
+        }
       }
     },
     "NOTION": {

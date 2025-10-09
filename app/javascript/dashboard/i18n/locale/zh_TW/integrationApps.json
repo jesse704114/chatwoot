@@ -1,18 +1,18 @@
 {
   "INTEGRATION_APPS": {
-    "FETCHING": "Fetching Integrations",
-    "NO_HOOK_CONFIGURED": "There are no {integrationId} integrations configured in this account.",
-    "HEADER": "Applications",
+    "FETCHING": "正在擷取整合應用程式",
+    "NO_HOOK_CONFIGURED": "此帳號尚未設定任何 {integrationId} 整合勾點。",
+    "HEADER": "應用程式",
     "STATUS": {
       "ENABLED": "已啟用",
       "DISABLED": "已停用"
     },
-    "CONFIGURE": "配置",
-    "ADD_BUTTON": "Add a new hook",
+    "CONFIGURE": "設定",
+    "ADD_BUTTON": "新增勾點",
     "DELETE": {
       "TITLE": {
         "INBOX": "刪除確認",
-        "ACCOUNT": "取消連結"
+        "ACCOUNT": "取消連結確認"
       },
       "MESSAGE": {
         "INBOX": "您確定要刪除嗎？",
@@ -24,12 +24,12 @@
       },
       "CANCEL_BUTTON_TEXT": "取消",
       "API": {
-        "SUCCESS_MESSAGE": "Hook deleted successfully",
-        "ERROR_MESSAGE": "無法連接伺服器，請稍後再試"
+        "SUCCESS_MESSAGE": "勾點刪除成功",
+        "ERROR_MESSAGE": "無法連線至伺服器，請稍後再試"
       }
     },
     "LIST": {
-      "FETCHING": "Fetching integration hooks",
+      "FETCHING": "正在擷取整合勾點",
       "INBOX": "收件匣",
       "DELETE": {
         "BUTTON_TEXT": "刪除"
@@ -45,18 +45,18 @@
         "CANCEL": "取消"
       },
       "API": {
-        "SUCCESS_MESSAGE": "Integration hook added successfully",
-        "ERROR_MESSAGE": "無法連接伺服器，請稍後再試"
+        "SUCCESS_MESSAGE": "整合勾點新增成功",
+        "ERROR_MESSAGE": "無法連線至伺服器，請稍後再試"
       }
     },
     "CONNECT": {
-      "BUTTON_TEXT": "連接"
+      "BUTTON_TEXT": "連線"
     },
     "DISCONNECT": {
       "BUTTON_TEXT": "取消連結"
     },
     "SIDEBAR_DESCRIPTION": {
-      "DIALOGFLOW": "Dialogflow is a natural language processing platform for building conversational interfaces. Integrating it with {installationName} lets bots handle queries first and transfer them to agents when needed. It helps qualify leads and reduce agent workload by answering FAQs. To add Dialogflow, create a Service Account in Google Console and share the credentials. Refer to the docs for details"
+      "DIALOGFLOW": "Dialogflow 是一個用於建構對話式介面的自然語言處理平台。將其與 {installationName} 整合後，機器人可以先處理查詢，並在需要時將其轉接給客服。它透過回答常見問題來協助篩選潛在客戶並減輕客服人員的工作量。若要新增 Dialogflow，請在 Google Console 中建立一個服務帳號 (Service Account) 並分享憑證。詳情請參閱文件。"
     }
   }
 }

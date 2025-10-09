@@ -1,12 +1,12 @@
 {
   "INBOX_MGMT": {
     "HEADER": "收件匣",
-    "DESCRIPTION": "A channel is the mode of communication your customer chooses to interact with you. An inbox is where you manage interactions for a specific channel. It can include communications from various sources such as email, live chat, and social media.",
-    "LEARN_MORE": "Learn more about inboxes",
-    "RECONNECTION_REQUIRED": "Your inbox is disconnected. You won't receive new messages until you reauthorize it.",
-    "CLICK_TO_RECONNECT": "Click here to reconnect.",
-    "WHATSAPP_REGISTRATION_INCOMPLETE": "Your WhatsApp Business registration isn’t complete. Please check your display name status in Meta Business Manager before reconnecting.",
-    "COMPLETE_REGISTRATION": "Complete Registration",
+    "DESCRIPTION": "頻道是您的客戶選擇與您互動的通訊方式。收件匣是您管理特定頻道互動的地方。它可以包含來自各種來源的通訊，例如電子郵件、即時聊天和社群媒體。",
+    "LEARN_MORE": "了解更多關於收件匣的資訊",
+    "RECONNECTION_REQUIRED": "您的收件匣已斷開連線。在您重新授權之前，您將不會收到新訊息。",
+    "CLICK_TO_RECONNECT": "點擊此處重新連線。",
+    "WHATSAPP_REGISTRATION_INCOMPLETE": "您的 WhatsApp Business 註冊尚未完成。請在重新連線之前，檢查您在 Meta Business Manager 中的顯示名稱狀態。",
+    "COMPLETE_REGISTRATION": "完成註冊",
     "LIST": {
       "404": "此帳戶没有收件匣。"
     },
@@ -25,14 +25,14 @@
       },
       "FINISH": {
         "TITLE": "Voilà!",
-        "BODY": "您已設定狀態為離開"
+        "BODY": "您已準備就緒！"
       }
     },
     "ADD": {
       "CHANNEL_NAME": {
         "LABEL": "收件匣名稱",
         "PLACEHOLDER": "輸入你的收件匣名稱 (e. g: Acme Inc)",
-        "ERROR": "Please enter a valid inbox name"
+        "ERROR": "請輸入有效的收件匣名稱"
       },
       "WEBSITE_NAME": {
         "LABEL": "網站名稱",
@@ -44,24 +44,24 @@
         "CHOOSE_PLACEHOLDER": "從列表中選擇一個頁面",
         "INBOX_NAME": "收件匣名稱",
         "ADD_NAME": "為收件匣新增名稱",
-        "PICK_NAME": "Pick a Name for your Inbox",
+        "PICK_NAME": "為您的收件匣選擇一個名稱",
         "PICK_A_VALUE": "選擇一個數值",
         "CREATE_INBOX": "新增收件匣"
       },
       "INSTAGRAM": {
-        "CONTINUE_WITH_INSTAGRAM": "Continue with Instagram",
-        "CONNECT_YOUR_INSTAGRAM_PROFILE": "Connect your Instagram Profile",
-        "HELP": "To add your Instagram profile as a channel, you need to authenticate your Instagram Profile by clicking on 'Continue with Instagram' ",
-        "ERROR_MESSAGE": "There was an error connecting to Instagram, please try again",
-        "ERROR_AUTH": "There was an error connecting to Instagram, please try again",
-        "NEW_INBOX_SUGGESTION": "This Instagram account was previously linked to a different inbox and has now been migrated here. All new messages will appear here. The old inbox will no longer be able to send or receive messages for this account.",
-        "DUPLICATE_INBOX_BANNER": "This Instagram account was migrated to the new Instagram channel inbox. You won’t be able to send/receive Instagram messages from this inbox anymore."
+        "CONTINUE_WITH_INSTAGRAM": "繼續使用 Instagram",
+        "CONNECT_YOUR_INSTAGRAM_PROFILE": "連接您的 Instagram 個人資料",
+        "HELP": "要將您的 Instagram 個人資料新增為頻道，您需要點擊「繼續使用 Instagram」來驗證您的 Instagram 個人資料",
+        "ERROR_MESSAGE": "連接 Instagram 時發生錯誤，請再試一次",
+        "ERROR_AUTH": "連接 Instagram 時發生錯誤，請再試一次",
+        "NEW_INBOX_SUGGESTION": "此 Instagram 帳戶先前已連結到不同的收件匣，現已遷移至此。所有新訊息將會顯示在此處。舊收件匣將無法再傳送或接收此帳戶的訊息。",
+        "DUPLICATE_INBOX_BANNER": "此 Instagram 帳戶已遷移至新的 Instagram 頻道收件匣。您將無法再從此收件匣傳送/接收 Instagram 訊息。"
       },
       "TWITTER": {
         "HELP": "若要將您的 Twitter 個人資料建立為頻道，您需要通過點擊“使用 Twitter 登入”來驗證您的 Twitter 個人資料。 ",
-        "ERROR_MESSAGE": "There was an error connecting to Twitter, please try again",
+        "ERROR_MESSAGE": "連接 Twitter 時發生錯誤，請再試一次",
         "TWEETS": {
-          "ENABLE": "Create conversations from mentioned Tweets"
+          "ENABLE": "從被提及的推文中建立對話"
         }
       },
       "WEBSITE_CHANNEL": {
@@ -73,7 +73,7 @@
         },
         "CHANNEL_WEBHOOK_URL": {
           "LABEL": "Webhook 網址",
-          "PLACEHOLDER": "Please enter your Webhook URL",
+          "PLACEHOLDER": "請輸入您的 Webhook URL",
           "ERROR": "請輸入一個有效的 URL"
         },
         "CHANNEL_DOMAIN": {
@@ -86,7 +86,7 @@
         },
         "CHANNEL_WELCOME_TAGLINE": {
           "LABEL": "歡迎標籤行",
-          "PLACEHOLDER": "如有疑問，請聯繫我們"
+          "PLACEHOLDER": "我們讓您輕鬆與我們聯繫。詢問我們任何問題，或分享您的意見回饋。"
         },
         "CHANNEL_GREETING_MESSAGE": {
           "LABEL": "頻道問候消息",
@@ -94,7 +94,7 @@
         },
         "CHANNEL_GREETING_TOGGLE": {
           "LABEL": "開啟頻道問候功能",
-          "HELP_TEXT": "Automatically send a greeting message when a new conversation is created.",
+          "HELP_TEXT": "當客戶開始對話並發送第一條訊息時，自動發送問候訊息。",
           "ENABLED": "已啟用",
           "DISABLED": "已停用"
         },
@@ -111,33 +111,33 @@
         },
         "SUBMIT_BUTTON": "建立收件匣",
         "API": {
-          "ERROR_MESSAGE": "We were not able to create a website channel, please try again"
+          "ERROR_MESSAGE": "我們無法建立網站頻道，請再試一次"
         }
       },
       "TWILIO": {
-        "TITLE": "Twilio SMS/WhatsApp Channel",
-        "DESC": "Integrate Twilio and start supporting your customers via SMS or WhatsApp.",
+        "TITLE": "Twilio SMS/WhatsApp 頻道",
+        "DESC": "整合 Twilio 並透過簡訊或 WhatsApp 開始支援您的客戶。",
         "ACCOUNT_SID": {
           "LABEL": "帳戶 SID",
           "PLACEHOLDER": "請輸入您的 Twilio 帳戶 SID",
           "ERROR": "此欄位是必填項目"
         },
         "API_KEY": {
-          "USE_API_KEY": "Use API Key Authentication",
+          "USE_API_KEY": "使用 API 金鑰驗證",
           "LABEL": "API Key SID",
-          "PLACEHOLDER": "Please enter your API Key SID",
+          "PLACEHOLDER": "請輸入您的 API 金鑰 SID",
           "ERROR": "此欄位是必填項目"
         },
         "API_KEY_SECRET": {
           "LABEL": "API Key Secret",
-          "PLACEHOLDER": "Please enter your API Key Secret",
+          "PLACEHOLDER": "請輸入您的 API 金鑰密鑰",
           "ERROR": "此欄位是必填項目"
         },
         "MESSAGING_SERVICE_SID": {
           "LABEL": "Messaging Service SID",
-          "PLACEHOLDER": "Please enter your Twilio Messaging Service SID",
+          "PLACEHOLDER": "請輸入您的 Twilio 訊息服務 SID",
           "ERROR": "此欄位是必填項目",
-          "USE_MESSAGING_SERVICE": "Use a Twilio Messaging Service"
+          "USE_MESSAGING_SERVICE": "使用 Twilio 訊息服務"
         },
         "CHANNEL_TYPE": {
           "LABEL": "頻道類型",
@@ -145,7 +145,7 @@
         },
         "AUTH_TOKEN": {
           "LABEL": "身份驗證 token",
-          "PLACEHOLDER": "請輸入您的 Twilio 認證 token",
+          "PLACEHOLDER": "請輸入您的 Twilio 驗證令牌",
           "ERROR": "此欄位是必填項目"
         },
         "CHANNEL_NAME": {
@@ -155,12 +155,12 @@
         },
         "PHONE_NUMBER": {
           "LABEL": "聯絡人電話",
-          "PLACEHOLDER": "請輸入發送消息的電話號碼。",
-          "ERROR": "Please provide a valid phone number that starts with a `+` sign and does not contain any spaces."
+          "PLACEHOLDER": "請輸入將發送訊息的電話號碼。",
+          "ERROR": "請提供一個以 `+` 號開頭且不包含任何空格的有效電話號碼。"
         },
         "API_CALLBACK": {
           "TITLE": "回呼地址",
-          "SUBTITLE": "您必須使用這裡提到的URL來配置 Twilio 中的回呼URL。"
+          "SUBTITLE": "您必須使用此處提及的 URL 在 Twilio 中配置訊息回呼 URL。"
         },
         "SUBMIT_BUTTON": "建立 Twilio 頻道",
         "API": {
@@ -169,34 +169,34 @@
       },
       "SMS": {
         "TITLE": "SMS 頻道",
-        "DESC": "Start supporting your customers via SMS.",
+        "DESC": "透過簡訊開始支援您的客戶。",
         "PROVIDERS": {
           "LABEL": "API Provider",
           "TWILIO": "Twilio",
           "BANDWIDTH": "Bandwidth"
         },
         "API": {
-          "ERROR_MESSAGE": "We were not able to save the SMS channel"
+          "ERROR_MESSAGE": "我們無法儲存簡訊頻道"
         },
         "BANDWIDTH": {
           "ACCOUNT_ID": {
             "LABEL": "Account ID",
-            "PLACEHOLDER": "Please enter your Bandwidth Account ID",
+            "PLACEHOLDER": "請輸入您的 Bandwidth 帳戶 ID",
             "ERROR": "此欄位是必填項目"
           },
           "API_KEY": {
             "LABEL": "API Key",
-            "PLACEHOLDER": "Please enter your Bandwidth API Key",
+            "PLACEHOLDER": "請輸入您的 Bandwidth API 金鑰",
             "ERROR": "此欄位是必填項目"
           },
           "API_SECRET": {
             "LABEL": "API Secret",
-            "PLACEHOLDER": "Please enter your Bandwidth API Secret",
+            "PLACEHOLDER": "請輸入您的 Bandwidth API 密鑰",
             "ERROR": "此欄位是必填項目"
           },
           "APPLICATION_ID": {
             "LABEL": "Application ID",
-            "PLACEHOLDER": "Please enter your Bandwidth Application ID",
+            "PLACEHOLDER": "請輸入您的 Bandwidth 應用程式 ID",
             "ERROR": "此欄位是必填項目"
           },
           "INBOX_NAME": {
@@ -206,277 +206,277 @@
           },
           "PHONE_NUMBER": {
             "LABEL": "電話號碼",
-            "PLACEHOLDER": "請輸入發送消息的電話號碼。",
-            "ERROR": "Please provide a valid phone number that starts with a `+` sign and does not contain any spaces."
+            "PLACEHOLDER": "請輸入將發送訊息的電話號碼。",
+            "ERROR": "請提供一個以 `+` 號開頭且不包含任何空格的有效電話號碼。"
           },
-          "SUBMIT_BUTTON": "Create Bandwidth Channel",
+          "SUBMIT_BUTTON": "建立 Bandwidth 頻道",
           "API": {
-            "ERROR_MESSAGE": "We were not able to authenticate Bandwidth credentials, please try again"
+            "ERROR_MESSAGE": "我們無法驗證 Bandwidth 憑證，請再試一次"
           },
           "API_CALLBACK": {
             "TITLE": "回呼地址",
-            "SUBTITLE": "You have to configure the message callback URL in Bandwidth with the URL mentioned here."
+            "SUBTITLE": "您必須使用此處提及的 URL 在 Bandwidth 中配置訊息回呼 URL。"
           }
         }
       },
       "WHATSAPP": {
         "TITLE": "WhatsApp Channel",
-        "DESC": "Start supporting your customers via WhatsApp.",
+        "DESC": "透過 WhatsApp 開始支援您的客戶。",
         "PROVIDERS": {
           "LABEL": "API Provider",
-          "WHATSAPP_EMBEDDED": "WhatsApp Business",
+          "WHATSAPP_EMBEDDED": "WhatsApp 商業版",
           "TWILIO": "Twilio",
-          "WHATSAPP_CLOUD": "WhatsApp Cloud",
-          "WHATSAPP_CLOUD_DESC": "Quick setup through Meta",
-          "TWILIO_DESC": "Connect via Twilio credentials",
+          "WHATSAPP_CLOUD": "WhatsApp 雲端",
+          "WHATSAPP_CLOUD_DESC": "透過 Meta 快速設定",
+          "TWILIO_DESC": "透過 Twilio 憑證連接",
           "360_DIALOG": "360Dialog"
         },
         "SELECT_PROVIDER": {
-          "TITLE": "Select your API provider",
-          "DESCRIPTION": "Choose your WhatsApp provider. You can connect directly through Meta which requires no setup, or connect through Twilio using your account credentials."
+          "TITLE": "選擇您的 API 提供者",
+          "DESCRIPTION": "選擇您的 WhatsApp 提供者。您可以直接透過 Meta 連接，無需設定，或使用您的帳戶憑證透過 Twilio 連接。"
         },
         "INBOX_NAME": {
           "LABEL": "收件匣名稱",
-          "PLACEHOLDER": "Please enter an inbox name",
+          "PLACEHOLDER": "請輸入收件匣名稱",
           "ERROR": "此欄位是必填項目"
         },
         "PHONE_NUMBER": {
           "LABEL": "電話號碼",
-          "PLACEHOLDER": "請輸入發送消息的電話號碼。",
-          "ERROR": "Please provide a valid phone number that starts with a `+` sign and does not contain any spaces."
+          "PLACEHOLDER": "請輸入將發送訊息的電話號碼。",
+          "ERROR": "請提供一個以 `+` 號開頭且不包含任何空格的有效電話號碼。"
         },
         "PHONE_NUMBER_ID": {
           "LABEL": "Phone number ID",
-          "PLACEHOLDER": "Please enter the Phone number ID obtained from Facebook developer dashboard.",
-          "ERROR": "Please enter a valid value."
+          "PLACEHOLDER": "請輸入從 Facebook 開發者儀表板取得的電話號碼 ID。",
+          "ERROR": "請輸入有效值。"
         },
         "BUSINESS_ACCOUNT_ID": {
           "LABEL": "Business Account ID",
-          "PLACEHOLDER": "Please enter the Business Account ID obtained from Facebook developer dashboard.",
-          "ERROR": "Please enter a valid value."
+          "PLACEHOLDER": "請輸入從 Facebook 開發者儀表板取得的商業帳戶 ID。",
+          "ERROR": "請輸入有效值。"
         },
         "WEBHOOK_VERIFY_TOKEN": {
           "LABEL": "Webhook Verify Token",
-          "PLACEHOLDER": "Enter a verify token which you want to configure for Facebook webhooks.",
-          "ERROR": "Please enter a valid value."
+          "PLACEHOLDER": "輸入您要為 Facebook Webhook 配置的驗證令牌。",
+          "ERROR": "請輸入有效值。"
         },
         "API_KEY": {
           "LABEL": "API key",
-          "SUBTITLE": "Configure the WhatsApp API key.",
-          "PLACEHOLDER": "API key",
-          "ERROR": "Please enter a valid value."
+          "SUBTITLE": "配置 WhatsApp API 金鑰。",
+          "PLACEHOLDER": "API 金鑰",
+          "ERROR": "請輸入有效值。"
         },
         "API_CALLBACK": {
-          "TITLE": "回呼地址",
-          "SUBTITLE": "You have to configure the webhook URL and the verification token in the Facebook Developer portal with the values shown below.",
-          "WEBHOOK_URL": "Webhook 網址",
-          "WEBHOOK_VERIFICATION_TOKEN": "Webhook Verification Token"
+          "TITLE": "回呼 URL",
+          "SUBTITLE": "您必須在 Facebook 開發者入口網站中配置 Webhook URL 和驗證令牌，並使用下面顯示的值。",
+          "WEBHOOK_URL": "Webhook URL",
+          "WEBHOOK_VERIFICATION_TOKEN": "Webhook 驗證令牌"
         },
-        "SUBMIT_BUTTON": "Create WhatsApp Channel",
+        "SUBMIT_BUTTON": "建立 WhatsApp 頻道",
         "EMBEDDED_SIGNUP": {
-          "TITLE": "Quick setup with Meta",
-          "DESC": "Use the WhatsApp Embedded Signup flow to quickly connect new numbers. You will be redirected to Meta to log into your WhatsApp Business account. Having admin access will help make the setup smooth and easy.",
+          "TITLE": "透過 Meta 快速設定",
+          "DESC": "使用 WhatsApp 嵌入式註冊流程快速連接新號碼。您將被重新導向到 Meta 登入您的 WhatsApp Business 帳戶。擁有管理員權限將有助於使設定順暢輕鬆。",
           "BENEFITS": {
-            "TITLE": "Benefits of Embedded Signup:",
-            "EASY_SETUP": "No manual configuration required",
-            "SECURE_AUTH": "Secure OAuth based authentication",
-            "AUTO_CONFIG": "Automatic webhook and phone number configuration"
+            "TITLE": "嵌入式註冊的優點：",
+            "EASY_SETUP": "無需手動配置",
+            "SECURE_AUTH": "安全的 OAuth 基礎驗證",
+            "AUTO_CONFIG": "自動 Webhook 和電話號碼配置"
           },
           "LEARN_MORE": {
-            "TEXT": "To learn more about integrated signup, pricing, and limitations, visit {link}.",
-            "LINK_TEXT": "this link"
+            "TEXT": "要了解有關整合式註冊、定價和限制的更多資訊，請訪問 {link}。",
+            "LINK_TEXT": "此連結"
           },
-          "SUBMIT_BUTTON": "Connect with WhatsApp Business",
-          "AUTH_PROCESSING": "Authenticating with Meta",
-          "WAITING_FOR_BUSINESS_INFO": "Please complete business setup in the Meta window...",
-          "PROCESSING": "Setting up your WhatsApp Business Account",
-          "LOADING_SDK": "Loading Facebook SDK...",
-          "CANCELLED": "WhatsApp Signup was cancelled",
-          "SUCCESS_TITLE": "WhatsApp Business Account Connected!",
-          "WAITING_FOR_AUTH": "Waiting for authentication...",
-          "INVALID_BUSINESS_DATA": "Invalid business data received from Facebook. Please try again.",
-          "SIGNUP_ERROR": "Signup error occurred",
-          "AUTH_NOT_COMPLETED": "Authentication not completed. Please restart the process.",
-          "SUCCESS_FALLBACK": "WhatsApp Business Account has been successfully configured",
-          "MANUAL_FALLBACK": "If your number is already connected to the WhatsApp Business Platform (API), or if you’re a tech provider onboarding your own number, please use the {link} flow",
-          "MANUAL_LINK_TEXT": "manual setup flow"
+          "SUBMIT_BUTTON": "連接 WhatsApp Business",
+          "AUTH_PROCESSING": "正在使用 Meta 進行驗證",
+          "WAITING_FOR_BUSINESS_INFO": "請在 Meta 視窗中完成業務設定...",
+          "PROCESSING": "正在設定您的 WhatsApp Business 帳戶",
+          "LOADING_SDK": "正在載入 Facebook SDK...",
+          "CANCELLED": "WhatsApp 註冊已取消",
+          "SUCCESS_TITLE": "WhatsApp Business 帳戶已連接！",
+          "WAITING_FOR_AUTH": "正在等待驗證...",
+          "INVALID_BUSINESS_DATA": "從 Facebook 收到無效的業務資料。請再試一次。",
+          "SIGNUP_ERROR": "發生註冊錯誤",
+          "AUTH_NOT_COMPLETED": "驗證未完成。請重新啟動流程。",
+          "SUCCESS_FALLBACK": "WhatsApp Business 帳戶已成功配置",
+          "MANUAL_FALLBACK": "如果您的號碼已連接到 WhatsApp Business Platform (API)，或者您是技術提供商正在上線自己的號碼，請使用 {link} 流程",
+          "MANUAL_LINK_TEXT": "手動設定流程"
         },
         "API": {
-          "ERROR_MESSAGE": "We were not able to save the WhatsApp channel"
+          "ERROR_MESSAGE": "我們無法儲存 WhatsApp 頻道"
         }
       },
       "VOICE": {
-        "TITLE": "Voice Channel",
-        "DESC": "Integrate Twilio Voice and start supporting your customers via phone calls.",
+        "TITLE": "語音頻道",
+        "DESC": "整合 Twilio 語音並透過電話通話開始支援您的客戶。",
         "PHONE_NUMBER": {
           "LABEL": "聯絡人電話",
-          "PLACEHOLDER": "Enter your phone number (e.g. +1234567890)",
-          "ERROR": "Please provide a valid phone number in E.164 format (e.g. +1234567890)"
+          "PLACEHOLDER": "輸入您的電話號碼 (例如：+1234567890)",
+          "ERROR": "請提供 E.164 格式的有效電話號碼 (例如：+1234567890)"
         },
         "TWILIO": {
           "ACCOUNT_SID": {
             "LABEL": "帳戶 SID",
-            "PLACEHOLDER": "Enter your Twilio Account SID",
-            "REQUIRED": "Account SID is required"
+            "PLACEHOLDER": "輸入您的 Twilio 帳戶 SID",
+            "REQUIRED": "需要帳戶 SID"
           },
           "AUTH_TOKEN": {
             "LABEL": "身份驗證 token",
-            "PLACEHOLDER": "Enter your Twilio Auth Token",
-            "REQUIRED": "Auth Token is required"
+            "PLACEHOLDER": "輸入您的 Twilio 驗證令牌",
+            "REQUIRED": "需要驗證令牌"
           },
           "API_KEY_SID": {
             "LABEL": "API Key SID",
-            "PLACEHOLDER": "Enter your Twilio API Key SID",
-            "REQUIRED": "API Key SID is required"
+            "PLACEHOLDER": "輸入您的 Twilio API 金鑰 SID",
+            "REQUIRED": "需要 API 金鑰 SID"
           },
           "API_KEY_SECRET": {
             "LABEL": "API Key Secret",
-            "PLACEHOLDER": "Enter your Twilio API Key Secret",
-            "REQUIRED": "API Key Secret is required"
+            "PLACEHOLDER": "輸入您的 Twilio API 金鑰密鑰",
+            "REQUIRED": "需要 API 金鑰密鑰"
           }
         },
         "CONFIGURATION": {
-          "TWILIO_VOICE_URL_TITLE": "Twilio Voice URL",
-          "TWILIO_VOICE_URL_SUBTITLE": "Configure this URL as the Voice URL on your Twilio phone number and TwiML App.",
-          "TWILIO_STATUS_URL_TITLE": "Twilio Status Callback URL",
-          "TWILIO_STATUS_URL_SUBTITLE": "Configure this URL as the Status Callback URL on your Twilio phone number."
+          "TWILIO_VOICE_URL_TITLE": "Twilio 語音 URL",
+          "TWILIO_VOICE_URL_SUBTITLE": "將此 URL 配置為您的 Twilio 電話號碼和 TwiML 應用程式上的語音 URL。",
+          "TWILIO_STATUS_URL_TITLE": "Twilio 狀態回呼 URL",
+          "TWILIO_STATUS_URL_SUBTITLE": "將此 URL 配置為您的 Twilio 電話號碼上的狀態回呼 URL。"
         },
-        "SUBMIT_BUTTON": "Create Voice Channel",
+        "SUBMIT_BUTTON": "建立語音頻道",
         "API": {
-          "ERROR_MESSAGE": "We were not able to create the voice channel"
+          "ERROR_MESSAGE": "我們無法建立語音頻道"
         }
       },
       "API_CHANNEL": {
         "TITLE": "API 頻道",
-        "DESC": "與 API 頻道互動，開始服務客戶。",
+        "DESC": "整合 API 頻道並開始支援您的客戶。",
         "CHANNEL_NAME": {
-          "LABEL": "頻道類型",
+          "LABEL": "頻道名稱",
           "PLACEHOLDER": "請輸入頻道名稱",
-          "ERROR": "此欄位是必填項目"
+          "ERROR": "此欄位為必填"
         },
         "WEBHOOK_URL": {
           "LABEL": "Webhook 網址",
-          "SUBTITLE": "Configure the URL where you want to receive callbacks on events.",
+          "SUBTITLE": "配置您希望接收事件回呼的 URL。",
           "PLACEHOLDER": "Webhook 網址"
         },
         "SUBMIT_BUTTON": "建立 API 頻道",
         "API": {
-          "ERROR_MESSAGE": "我們無法保存 API 頻道"
+          "ERROR_MESSAGE": "我們無法儲存 API 頻道"
         }
       },
       "EMAIL_CHANNEL": {
         "TITLE": "電子信箱頻道",
-        "DESC": "Integrate your email inbox.",
+        "DESC": "整合您的電子郵件收件匣。",
         "CHANNEL_NAME": {
-          "LABEL": "頻道類型",
+          "LABEL": "頻道名稱",
           "PLACEHOLDER": "請輸入頻道名稱",
-          "ERROR": "此欄位是必填項目"
+          "ERROR": "此欄位為必填"
         },
         "EMAIL": {
           "LABEL": "Email",
-          "SUBTITLE": "Provide the email address where your customers send support requests.",
-          "PLACEHOLDER": "Email"
+          "SUBTITLE": "提供您的客戶發送支援請求的電子郵件地址。",
+          "PLACEHOLDER": "電子郵件"
         },
-        "SUBMIT_BUTTON": "建立電子信箱頻道",
+        "SUBMIT_BUTTON": "建立電子郵件頻道",
         "API": {
-          "ERROR_MESSAGE": "我們無法儲存電子信箱頻道"
+          "ERROR_MESSAGE": "我們無法儲存電子郵件頻道"
         },
-        "FINISH_MESSAGE": "開始將您的電子信箱轉發到以下電子信箱地址。"
+        "FINISH_MESSAGE": "開始將您的電子郵件轉發到以下電子郵件地址。"
       },
       "LINE_CHANNEL": {
-        "TITLE": "LINE Channel",
-        "DESC": "Integrate with LINE channel and start supporting your customers.",
+        "TITLE": "LINE 頻道",
+        "DESC": "整合 LINE 頻道並開始支援您的客戶。",
         "CHANNEL_NAME": {
-          "LABEL": "頻道類型",
+          "LABEL": "頻道名稱",
           "PLACEHOLDER": "請輸入頻道名稱",
-          "ERROR": "此欄位是必填項目"
+          "ERROR": "此欄位為必填"
         },
         "LINE_CHANNEL_ID": {
           "LABEL": "LINE Channel ID",
-          "PLACEHOLDER": "LINE Channel ID"
+          "PLACEHOLDER": "LINE 頻道 ID"
         },
         "LINE_CHANNEL_SECRET": {
           "LABEL": "LINE Channel Secret",
-          "PLACEHOLDER": "LINE Channel Secret"
+          "PLACEHOLDER": "LINE 頻道密鑰"
         },
         "LINE_CHANNEL_TOKEN": {
           "LABEL": "LINE Channel Token",
-          "PLACEHOLDER": "LINE Channel Token"
+          "PLACEHOLDER": "LINE 頻道令牌"
         },
-        "SUBMIT_BUTTON": "建立 LINE Channel",
+        "SUBMIT_BUTTON": "建立 LINE 頻道",
         "API": {
-          "ERROR_MESSAGE": "We were not able to save the LINE channel"
+          "ERROR_MESSAGE": "我們無法儲存 LINE 頻道"
         },
         "API_CALLBACK": {
           "TITLE": "回呼地址",
-          "SUBTITLE": "You have to configure the webhook URL in LINE application with the URL mentioned here."
+          "SUBTITLE": "您必須使用此處提及的 URL 在 LINE 應用程式中配置 Webhook URL。"
         }
       },
       "TELEGRAM_CHANNEL": {
-        "TITLE": "Telegram Channel",
-        "DESC": "Integrate with Telegram channel and start supporting your customers.",
+        "TITLE": "Telegram 頻道",
+        "DESC": "整合 Telegram 頻道並開始支援您的客戶。",
         "BOT_TOKEN": {
           "LABEL": "Bot Token",
-          "SUBTITLE": "Configure the bot token you have obtained from Telegram BotFather.",
-          "PLACEHOLDER": "Bot Token"
+          "SUBTITLE": "配置您從 Telegram BotFather 取得的機器人令牌。",
+          "PLACEHOLDER": "機器人令牌"
         },
-        "SUBMIT_BUTTON": "建立 Telegram Channel",
+        "SUBMIT_BUTTON": "建立 Telegram 頻道",
         "API": {
-          "ERROR_MESSAGE": "我們無法儲存 telegram 頻道"
+          "ERROR_MESSAGE": "我們無法儲存 Telegram 頻道"
         }
       },
       "AUTH": {
         "TITLE": "選擇一個頻道",
-        "DESC": "Chatwoot supports live-chat widgets, Facebook Messenger, Twitter profiles, WhatsApp, Emails, etc., as channels. If you want to build a custom channel, you can create it using the API channel. To get started, choose one of the channels below.",
-        "TITLE_NEXT": "Complete the setup",
-        "TITLE_FINISH": "Voilà!",
+        "DESC": "Chatwoot 支援即時聊天小工具、Facebook Messenger、WhatsApp、電子郵件等作為頻道。如果您想建立自訂頻道，可以使用 API 頻道建立。要開始使用，請選擇以下其中一個頻道。",
+        "TITLE_NEXT": "完成設定",
+        "TITLE_FINISH": "瞧！",
         "CHANNEL": {
           "WEBSITE": {
-            "TITLE": "Website",
-            "DESCRIPTION": "Create a live-chat widget"
+            "TITLE": "網站",
+            "DESCRIPTION": "建立即時聊天小工具"
           },
           "FACEBOOK": {
             "TITLE": "Facebook",
-            "DESCRIPTION": "Connect your Facebook page"
+            "DESCRIPTION": "連接您的 Facebook 頁面"
           },
           "WHATSAPP": {
             "TITLE": "WhatsApp",
-            "DESCRIPTION": "Support your customers on WhatsApp"
+            "DESCRIPTION": "在 WhatsApp 上支援您的客戶"
           },
           "EMAIL": {
-            "TITLE": "Email",
-            "DESCRIPTION": "Connect with Gmail, Outlook, or other providers"
+            "TITLE": "電子郵件",
+            "DESCRIPTION": "連接 Gmail、Outlook 或其他提供者"
           },
           "SMS": {
-            "TITLE": "SMS",
-            "DESCRIPTION": "Integrate SMS channel with Twilio or bandwidth"
+            "TITLE": "簡訊",
+            "DESCRIPTION": "整合 Twilio 或 Bandwidth 的簡訊頻道"
           },
           "API": {
             "TITLE": "API",
-            "DESCRIPTION": "Make a custom channel using our API"
+            "DESCRIPTION": "使用我們的 API 建立自訂頻道"
           },
           "TELEGRAM": {
             "TITLE": "Telegram",
-            "DESCRIPTION": "Configure Telegram channel using Bot token"
+            "DESCRIPTION": "使用機器人令牌配置 Telegram 頻道"
           },
           "LINE": {
             "TITLE": "Line",
-            "DESCRIPTION": "Integrate your Line channel"
+            "DESCRIPTION": "整合您的 Line 頻道"
           },
           "INSTAGRAM": {
             "TITLE": "Instagram",
-            "DESCRIPTION": "Connect your instagram account"
+            "DESCRIPTION": "連接您的 Instagram 帳戶"
           },
           "VOICE": {
-            "TITLE": "Voice",
-            "DESCRIPTION": "Integrate with Twilio Voice"
+            "TITLE": "語音",
+            "DESCRIPTION": "整合 Twilio 語音"
           }
         }
       },
       "AGENTS": {
         "TITLE": "客服",
         "DESC": "在這裡您可以新增客服來管理您新建立的收件匣。只有這些選定的客服才能訪問您的收件匣。 不屬於此收件匣的客服在登入時將無法看到或回覆此收件匣中的消息。 <br> <b>PS：</b> 作為管理員，如果您需要訪問所有收件匣， 您應該將自己建立到您建立的所有收件匣中。",
-        "VALIDATION_ERROR": "Add at least one agent to your new Inbox",
+        "VALIDATION_ERROR": "請為您的新收件匣新增至少一位客服",
         "PICK_AGENTS": "為收件匣挑選一些客服"
       },
       "DETAILS": {
@@ -489,46 +489,46 @@
       },
       "EMAIL_PROVIDER": {
         "TITLE": "選擇你的電子郵件供應商",
-        "DESCRIPTION": "Select an email provider from the list below. If you don't see your email provider in the list, you can select the other provider option and provide the IMAP and SMTP Credentials."
+        "DESCRIPTION": "從下面的列表中選擇一個電子郵件提供者。如果您在列表中沒有看到您的電子郵件提供者，您可以選擇其他提供者選項並提供 IMAP 和 SMTP 憑證。"
       },
       "MICROSOFT": {
-        "TITLE": "Microsoft Email",
-        "DESCRIPTION": "Click on the Sign in with Microsoft button to get started. You will redirected to the email sign in page. Once you accept the requested permissions, you would be redirected back to the inbox creation step.",
+        "TITLE": "Microsoft 電子郵件",
+        "DESCRIPTION": "點擊「使用 Microsoft 登入」按鈕開始。您將被重新導向到電子郵件登入頁面。一旦您接受請求的權限，您將被重新導向回收件匣建立步驟。",
         "EMAIL_PLACEHOLDER": "輸入電子信箱",
-        "SIGN_IN": "Sign in with Microsoft",
-        "ERROR_MESSAGE": "There was an error connecting to Microsoft, please try again"
+        "SIGN_IN": "使用 Microsoft 登入",
+        "ERROR_MESSAGE": "連接 Microsoft 時發生錯誤，請再試一次"
       },
       "GOOGLE": {
-        "TITLE": "Google Email",
-        "DESCRIPTION": "Click on the Sign in with Google button to get started. You will redirected to the email sign in page. Once you accept the requested permissions, you would be redirected back to the inbox creation step.",
-        "SIGN_IN": "Sign in with Google",
+        "TITLE": "Google 電子郵件",
+        "DESCRIPTION": "點擊「使用 Google 登入」按鈕開始。您將被重新導向到電子郵件登入頁面。一旦您接受請求的權限，您將被重新導向回收件匣建立步驟。",
+        "SIGN_IN": "使用 Google 登入",
         "EMAIL_PLACEHOLDER": "輸入電子信箱",
-        "ERROR_MESSAGE": "There was an error connecting to Google, please try again"
+        "ERROR_MESSAGE": "連接 Google 時發生錯誤，請再試一次"
       }
     },
     "DETAILS": {
       "LOADING_FB": "在 Facebook 上認證你... ..",
-      "ERROR_FB_LOADING": "Error loading Facebook SDK. Please disable any ad-blockers and try again from a different browser.",
+      "ERROR_FB_LOADING": "載入 Facebook SDK 時發生錯誤。請禁用任何廣告攔截器，並從不同的瀏覽器再試一次。",
       "ERROR_FB_AUTH": "出錯了，請刷新頁面...",
-      "ERROR_FB_UNAUTHORIZED": "You're not authorized to perform this action. ",
-      "ERROR_FB_UNAUTHORIZED_HELP": "Please ensure you have access to the Facebook page with full control. You can read more about Facebook roles <a href=\" https://www.facebook.com/help/187316341316631\">here</a>.",
-      "CREATING_CHANNEL": "建立您的收件匣...",
-      "TITLE": "配置收件匣詳情",
+      "ERROR_FB_UNAUTHORIZED": "您沒有權限執行此操作。",
+      "ERROR_FB_UNAUTHORIZED_HELP": "請確保您擁有對 Facebook 頁面的完全控制權。您可以在<a href=\" https://www.facebook.com/help/187316341316631\">此處</a>閱讀更多關於 Facebook 角色的資訊。",
+      "CREATING_CHANNEL": "正在建立您的收件匣...",
+      "TITLE": "配置收件匣詳細資訊",
       "DESC": ""
     },
     "AGENTS": {
       "BUTTON_TEXT": "新增客服",
-      "ADD_AGENTS": "正在新增客服到你的收件匣..."
+      "ADD_AGENTS": "正在將客服新增到您的收件匣..."
     },
     "FINISH": {
       "TITLE": "您的收件匣已準備就緒！",
-      "MESSAGE": "您現在可以通過您的新頻道與您的客户聯繫。開心的支援客戶吧",
-      "BUTTON_TEXT": "带我到這裡",
+      "MESSAGE": "您現在可以透過您的新頻道與您的客戶互動。祝您支援愉快",
+      "BUTTON_TEXT": "帶我到那裡",
       "MORE_SETTINGS": "更多設定",
-      "WEBSITE_SUCCESS": "您已成功完成建立網站頻道。複製下面顯示的代碼並將其黏貼在您的網站上。 下次客户使用即時聊天時，對話將自動出現在您的收件匣中。",
-      "WHATSAPP_QR_INSTRUCTION": "Scan the QR code above to quickly test your WhatsApp inbox",
-      "MESSENGER_QR_INSTRUCTION": "Scan the QR code above to quickly test your Facebook Messenger inbox",
-      "TELEGRAM_QR_INSTRUCTION": "Scan the QR code above to quickly test your Telegram inbox"
+      "WEBSITE_SUCCESS": "您已成功建立網站頻道。複製下面顯示的程式碼並將其貼到您的網站上。下次客戶使用即時聊天時，對話將自動出現在您的收件匣中。",
+      "WHATSAPP_QR_INSTRUCTION": "掃描上方 QR 碼以快速測試您的 WhatsApp 收件匣",
+      "MESSENGER_QR_INSTRUCTION": "掃描上方 QR 碼以快速測試您的 Facebook Messenger 收件匣",
+      "TELEGRAM_QR_INSTRUCTION": "掃描上方 QR 碼以快速測試您的 Telegram 收件匣"
     },
     "REAUTH": "重新授權",
     "VIEW": "查看",
@@ -536,7 +536,7 @@
       "API": {
         "SUCCESS_MESSAGE": "已成功更新收件匣設定",
         "AUTO_ASSIGNMENT_SUCCESS_MESSAGE": "自動分配成功更新",
-        "ERROR_MESSAGE": "We couldn't update inbox settings. Please try again later."
+        "ERROR_MESSAGE": "我們無法更新收件匣設定。請稍後再試。"
       },
       "EMAIL_COLLECT_BOX": {
         "ENABLED": "已啟用",
@@ -547,22 +547,22 @@
         "DISABLED": "已停用"
       },
       "SENDER_NAME_SECTION": {
-        "TITLE": "Sender name",
-        "SUB_TEXT": "Select the name shown to your customer when they receive emails from your agents.",
-        "FOR_EG": "For eg:",
+        "TITLE": "寄件者名稱",
+        "SUB_TEXT": "選擇客戶從您的客服收到電子郵件時顯示的名稱。",
+        "FOR_EG": "例如：",
         "FRIENDLY": {
-          "TITLE": "Friendly",
-          "FROM": "from",
-          "SUBTITLE": "Add the name of the agent who sent the reply in the sender name to make it friendly."
+          "TITLE": "友善",
+          "FROM": "來自",
+          "SUBTITLE": "在寄件者名稱中新增發送回覆的客服名稱，使其更友善。"
         },
         "PROFESSIONAL": {
-          "TITLE": "Professional",
-          "SUBTITLE": "Use only the configured business name as the sender name in the email header."
+          "TITLE": "專業",
+          "SUBTITLE": "僅使用配置的業務名稱作為電子郵件標頭中的寄件者名稱。"
         },
         "BUSINESS_NAME": {
-          "BUTTON_TEXT": "+ Configure your business name",
-          "PLACEHOLDER": "Enter your business name",
-          "SAVE_BUTTON_TEXT": "Save"
+          "BUTTON_TEXT": "+ 配置您的業務名稱",
+          "PLACEHOLDER": "輸入您的業務名稱",
+          "SAVE_BUTTON_TEXT": "儲存"
         }
       },
       "ALLOW_MESSAGES_AFTER_RESOLVED": {
@@ -583,10 +583,10 @@
     },
     "DELETE": {
       "BUTTON_TEXT": "刪除",
-      "AVATAR_DELETE_BUTTON_TEXT": "刪除頭貼",
+      "AVATAR_DELETE_BUTTON_TEXT": "刪除頭像",
       "CONFIRM": {
         "TITLE": "確認刪除",
-        "MESSAGE": "您確定要刪除吗？ ",
+        "MESSAGE": "您確定要刪除嗎？ ",
         "PLACE_HOLDER": "請輸入 {inboxName} 以確認",
         "YES": "是，刪除 ",
         "NO": "不，保留 "
@@ -594,8 +594,8 @@
       "API": {
         "SUCCESS_MESSAGE": "收件匣刪除成功",
         "ERROR_MESSAGE": "無法刪除收件匣。請稍後再試。",
-        "AVATAR_SUCCESS_MESSAGE": "Inbox avatar deleted successfully",
-        "AVATAR_ERROR_MESSAGE": "Could not delete the inbox avatar. Please try again later."
+        "AVATAR_SUCCESS_MESSAGE": "收件匣頭像已成功刪除",
+        "AVATAR_ERROR_MESSAGE": "無法刪除收件匣頭像。請稍後再試。"
       }
     },
     "TABS": {
@@ -603,247 +603,247 @@
       "COLLABORATORS": "客服人員",
       "CONFIGURATION": "組態",
       "CAMPAIGN": "行銷活動",
-      "PRE_CHAT_FORM": "Pre Chat Form",
+      "PRE_CHAT_FORM": "預設聊天表單",
       "BUSINESS_HOURS": "服務時間",
-      "WIDGET_BUILDER": "Widget Builder",
-      "BOT_CONFIGURATION": "增機器人設定",
-      "ACCOUNT_HEALTH": "Account Health",
-      "CSAT": "顧客滿意度得分(CSAT)"
+      "WIDGET_BUILDER": "小工具建立器",
+      "BOT_CONFIGURATION": "機器人配置",
+      "ACCOUNT_HEALTH": "帳戶健康狀況",
+      "CSAT": "客戶滿意度調查"
     },
     "ACCOUNT_HEALTH": {
-      "TITLE": "Manage your WhatsApp account",
-      "DESCRIPTION": "Review your WhatsApp account status, messaging limits, and quality. Update settings or resolve issues if needed",
-      "GO_TO_SETTINGS": "Go to Meta Business Manager",
-      "NO_DATA": "Health data is not available",
+      "TITLE": "管理您的 WhatsApp 帳戶",
+      "DESCRIPTION": "查看您的 WhatsApp 帳戶狀態、訊息限制和品質。如有需要，更新設定或解決問題",
+      "GO_TO_SETTINGS": "前往 Meta Business Manager",
+      "NO_DATA": "健康資料不可用",
       "FIELDS": {
         "DISPLAY_PHONE_NUMBER": {
-          "LABEL": "Display phone number",
-          "TOOLTIP": "Phone number displayed to customers"
+          "LABEL": "顯示電話號碼",
+          "TOOLTIP": "向客戶顯示的電話號碼"
         },
         "VERIFIED_NAME": {
-          "LABEL": "Business name",
-          "TOOLTIP": "Business name verified by WhatsApp"
+          "LABEL": "業務名稱",
+          "TOOLTIP": "WhatsApp 驗證的業務名稱"
         },
         "DISPLAY_NAME_STATUS": {
-          "LABEL": "Display name status",
-          "TOOLTIP": "Status of your business name verification"
+          "LABEL": "顯示名稱狀態",
+          "TOOLTIP": "您的業務名稱驗證狀態"
         },
         "QUALITY_RATING": {
-          "LABEL": "Quality rating",
-          "TOOLTIP": "WhatsApp quality rating for your account"
+          "LABEL": "品質評級",
+          "TOOLTIP": "您的帳戶的 WhatsApp 品質評級"
         },
         "MESSAGING_LIMIT_TIER": {
-          "LABEL": "Messaging limit tier",
-          "TOOLTIP": "Daily messaging limit for your account"
+          "LABEL": "訊息限制層級",
+          "TOOLTIP": "您的帳戶的每日訊息限制"
         },
         "ACCOUNT_MODE": {
-          "LABEL": "Account mode",
-          "TOOLTIP": "Current operating mode of your WhatsApp account"
+          "LABEL": "帳戶模式",
+          "TOOLTIP": "您的 WhatsApp 帳戶的當前操作模式"
         }
       },
       "VALUES": {
         "TIERS": {
-          "TIER_250": "250 customers per 24h",
-          "TIER_1000": "1K customers per 24h",
-          "TIER_1K": "1K customers per 24h",
-          "TIER_10K": "10K customers per 24h",
-          "TIER_100K": "100K customers per 24h",
-          "TIER_UNLIMITED": "Unlimited customers per 24h",
-          "UNKNOWN": "Rating not available"
+          "TIER_250": "每 24 小時 250 位客戶",
+          "TIER_1000": "每 24 小時 1K 位客戶",
+          "TIER_1K": "每 24 小時 1K 位客戶",
+          "TIER_10K": "每 24 小時 10K 位客戶",
+          "TIER_100K": "每 24 小時 100K 位客戶",
+          "TIER_UNLIMITED": "每 24 小時無限客戶",
+          "UNKNOWN": "評級不可用"
         },
         "STATUSES": {
-          "APPROVED": "Approved",
-          "PENDING_REVIEW": "Pending Review",
-          "AVAILABLE_WITHOUT_REVIEW": "Available Without Review",
-          "REJECTED": "Rejected",
-          "DECLINED": "Declined",
-          "NON_EXISTS": "Non exists"
+          "APPROVED": "已批准",
+          "PENDING_REVIEW": "待審核",
+          "AVAILABLE_WITHOUT_REVIEW": "無需審核即可使用",
+          "REJECTED": "已拒絕",
+          "DECLINED": "已拒絕",
+          "NON_EXISTS": "不存在"
         },
         "MODES": {
-          "SANDBOX": "Sandbox",
-          "LIVE": "Live"
+          "SANDBOX": "沙盒",
+          "LIVE": "上線"
         }
       }
     },
     "SETTINGS": "設定",
     "FEATURES": {
-      "LABEL": "Features",
+      "LABEL": "功能",
       "DISPLAY_FILE_PICKER": "在小工具上顯示檔案選擇器",
       "DISPLAY_EMOJI_PICKER": "在小工具上顯示 emoji 選擇器",
-      "ALLOW_END_CONVERSATION": "Allow users to end conversation from the widget",
-      "USE_INBOX_AVATAR_FOR_BOT": "Use inbox name and avatar for the bot"
+      "ALLOW_END_CONVERSATION": "允許用戶從小工具結束對話",
+      "USE_INBOX_AVATAR_FOR_BOT": "將收件匣名稱和頭像用於機器人"
     },
     "SETTINGS_POPUP": {
-      "MESSENGER_HEADING": "Messenger 脚本",
+      "MESSENGER_HEADING": "Messenger 腳本",
       "MESSENGER_SUB_HEAD": "將此按鈕放置在視窗標籤中",
       "ALLOWED_DOMAINS": {
-        "TITLE": "Allowed Domains",
-        "SUBTITLE": "Add wildcard or regular domains separated by commas (leave blank to allow all), e.g. *.chatwoot.dev, chatwoot.com.",
-        "PLACEHOLDER": "Enter domains separated by commas (eg: *.chatwoot.dev, chatwoot.com)"
+        "TITLE": "允許的網域",
+        "SUBTITLE": "新增以逗號分隔的萬用字元或常規網域（留空表示允許所有），例如：*.chatwoot.dev, chatwoot.com。",
+        "PLACEHOLDER": "輸入以逗號分隔的網域 (例如：*.chatwoot.dev, chatwoot.com)"
       },
       "INBOX_AGENTS": "客服",
       "INBOX_AGENTS_SUB_TEXT": "新增或刪除此收件匣中的客服",
-      "AGENT_ASSIGNMENT": "Conversation Assignment",
-      "AGENT_ASSIGNMENT_SUB_TEXT": "Update conversation assignment settings",
+      "AGENT_ASSIGNMENT": "對話分配",
+      "AGENT_ASSIGNMENT_SUB_TEXT": "更新對話分配設定",
       "UPDATE": "更新",
-      "ENABLE_EMAIL_COLLECT_BOX": "Enable email collect box",
-      "ENABLE_EMAIL_COLLECT_BOX_SUB_TEXT": "Enable or disable email collect box on new conversation",
+      "ENABLE_EMAIL_COLLECT_BOX": "啟用電子郵件收集框",
+      "ENABLE_EMAIL_COLLECT_BOX_SUB_TEXT": "在新對話中啟用或禁用電子郵件收集框",
       "AUTO_ASSIGNMENT": "啟用自動分配",
-      "SENDER_NAME_SECTION": "Enable Agent Name in Email",
-      "SENDER_NAME_SECTION_TEXT": "Enable/Disable showing Agent's name in email, if disabled it will show business name",
-      "ENABLE_CONTINUITY_VIA_EMAIL": "Enable conversation continuity via email",
-      "ENABLE_CONTINUITY_VIA_EMAIL_SUB_TEXT": "Conversations will continue over email if the contact email address is available.",
-      "LOCK_TO_SINGLE_CONVERSATION": "Lock to single conversation",
-      "LOCK_TO_SINGLE_CONVERSATION_SUB_TEXT": "Enable or disable multiple conversations for the same contact in this inbox",
+      "SENDER_NAME_SECTION": "在電子郵件中啟用客服名稱",
+      "SENDER_NAME_SECTION_TEXT": "啟用/禁用在電子郵件中顯示客服名稱，如果禁用則顯示業務名稱",
+      "ENABLE_CONTINUITY_VIA_EMAIL": "透過電子郵件啟用對話連續性",
+      "ENABLE_CONTINUITY_VIA_EMAIL_SUB_TEXT": "如果聯絡人電子郵件地址可用，對話將透過電子郵件繼續。",
+      "LOCK_TO_SINGLE_CONVERSATION": "鎖定單一對話",
+      "LOCK_TO_SINGLE_CONVERSATION_SUB_TEXT": "在此收件匣中啟用或禁用同一聯絡人的多個對話",
       "INBOX_UPDATE_TITLE": "收件匣設定",
       "INBOX_UPDATE_SUB_TEXT": "更新收件匣設定",
       "AUTO_ASSIGNMENT_SUB_TEXT": "啟用或停用此收件匣客服的對話自動分配。",
-      "HMAC_VERIFICATION": "使用者身份驗證",
-      "HMAC_DESCRIPTION": "With this key you can generate a secret token that can be used to verify the identity of your users.",
-      "HMAC_LINK_TO_DOCS": "You can read more here.",
-      "HMAC_MANDATORY_VERIFICATION": "Enforce User Identity Validation",
-      "HMAC_MANDATORY_DESCRIPTION": "If enabled, requests that cannot be verified will be rejected.",
-      "INBOX_IDENTIFIER": "Inbox Identifier",
-      "INBOX_IDENTIFIER_SUB_TEXT": "Use the `inbox_identifier` token shown here to authentication your API clients.",
-      "FORWARD_EMAIL_TITLE": "Forward to Email",
-      "FORWARD_EMAIL_SUB_TEXT": "開始將您的電子信箱轉發到以下電子信箱地址。",
-      "ALLOW_MESSAGES_AFTER_RESOLVED": "Allow messages after conversation resolved",
-      "ALLOW_MESSAGES_AFTER_RESOLVED_SUB_TEXT": "Allow the end-users to send messages even after the conversation is resolved.",
-      "WHATSAPP_SECTION_SUBHEADER": "This API Key is used for the integration with the WhatsApp APIs.",
-      "WHATSAPP_SECTION_UPDATE_SUBHEADER": "Enter the new API key to be used for the integration with the WhatsApp APIs.",
-      "WHATSAPP_SECTION_TITLE": "API Key",
-      "WHATSAPP_SECTION_UPDATE_TITLE": "更新 API Key",
-      "WHATSAPP_SECTION_UPDATE_PLACEHOLDER": "在此輸入新的 API Key",
+      "HMAC_VERIFICATION": "用戶身份驗證",
+      "HMAC_DESCRIPTION": "使用此金鑰，您可以生成一個秘密令牌，用於驗證用戶身份。",
+      "HMAC_LINK_TO_DOCS": "您可以在此處閱讀更多資訊。",
+      "HMAC_MANDATORY_VERIFICATION": "強制執行用戶身份驗證",
+      "HMAC_MANDATORY_DESCRIPTION": "如果啟用，無法驗證的請求將被拒絕。",
+      "INBOX_IDENTIFIER": "收件匣識別碼",
+      "INBOX_IDENTIFIER_SUB_TEXT": "使用此處顯示的 `inbox_identifier` 令牌來驗證您的 API 客戶端。",
+      "FORWARD_EMAIL_TITLE": "轉發到電子郵件",
+      "FORWARD_EMAIL_SUB_TEXT": "開始將您的電子郵件轉發到以下電子郵件地址。",
+      "ALLOW_MESSAGES_AFTER_RESOLVED": "允許對話解決後發送訊息",
+      "ALLOW_MESSAGES_AFTER_RESOLVED_SUB_TEXT": "允許終端用戶即使在對話解決後也能發送訊息。",
+      "WHATSAPP_SECTION_SUBHEADER": "此 API 金鑰用於與 WhatsApp API 整合。",
+      "WHATSAPP_SECTION_UPDATE_SUBHEADER": "輸入用於與 WhatsApp API 整合的新 API 金鑰。",
+      "WHATSAPP_SECTION_TITLE": "API 金鑰",
+      "WHATSAPP_SECTION_UPDATE_TITLE": "更新 API 金鑰",
+      "WHATSAPP_SECTION_UPDATE_PLACEHOLDER": "在此輸入新的 API 金鑰",
       "WHATSAPP_SECTION_UPDATE_BUTTON": "更新",
-      "WHATSAPP_EMBEDDED_SIGNUP_TITLE": "WhatsApp Embedded Signup",
-      "WHATSAPP_EMBEDDED_SIGNUP_SUBHEADER": "This inbox is connected through WhatsApp embedded signup.",
-      "WHATSAPP_EMBEDDED_SIGNUP_DESCRIPTION": "You can reconfigure this inbox to update your WhatsApp Business settings.",
-      "WHATSAPP_RECONFIGURE_BUTTON": "Reconfigure",
-      "WHATSAPP_CONNECT_TITLE": "Connect to WhatsApp Business",
-      "WHATSAPP_CONNECT_SUBHEADER": "Upgrade to WhatsApp embedded signup for easier management.",
-      "WHATSAPP_CONNECT_DESCRIPTION": "Connect this inbox to WhatsApp Business for enhanced features and easier management.",
+      "WHATSAPP_EMBEDDED_SIGNUP_TITLE": "WhatsApp 嵌入式註冊",
+      "WHATSAPP_EMBEDDED_SIGNUP_SUBHEADER": "此收件匣透過 WhatsApp 嵌入式註冊連接。",
+      "WHATSAPP_EMBEDDED_SIGNUP_DESCRIPTION": "您可以重新配置此收件匣以更新您的 WhatsApp Business 設定。",
+      "WHATSAPP_RECONFIGURE_BUTTON": "重新配置",
+      "WHATSAPP_CONNECT_TITLE": "連接 WhatsApp Business",
+      "WHATSAPP_CONNECT_SUBHEADER": "升級到 WhatsApp 嵌入式註冊以實現更輕鬆的管理。",
+      "WHATSAPP_CONNECT_DESCRIPTION": "將此收件匣連接到 WhatsApp Business 以獲得增強功能和更輕鬆的管理。",
       "WHATSAPP_CONNECT_BUTTON": "連接",
-      "WHATSAPP_CONNECT_SUCCESS": "Successfully connected to WhatsApp Business!",
-      "WHATSAPP_CONNECT_ERROR": "Failed to connect to WhatsApp Business. Please try again.",
-      "WHATSAPP_RECONFIGURE_SUCCESS": "Successfully reconfigured WhatsApp Business!",
-      "WHATSAPP_RECONFIGURE_ERROR": "Failed to reconfigure WhatsApp Business. Please try again.",
-      "WHATSAPP_APP_ID_MISSING": "WhatsApp App ID is not configured. Please contact your administrator.",
-      "WHATSAPP_CONFIG_ID_MISSING": "WhatsApp Configuration ID is not configured. Please contact your administrator.",
-      "WHATSAPP_LOGIN_CANCELLED": "WhatsApp login was cancelled. Please try again.",
-      "WHATSAPP_WEBHOOK_TITLE": "Webhook Verification Token",
-      "WHATSAPP_WEBHOOK_SUBHEADER": "This token is used to verify the authenticity of the webhook endpoint.",
-      "WHATSAPP_TEMPLATES_SYNC_TITLE": "Sync Templates",
-      "WHATSAPP_TEMPLATES_SYNC_SUBHEADER": "Manually sync message templates from WhatsApp to update your available templates.",
-      "WHATSAPP_TEMPLATES_SYNC_BUTTON": "Sync Templates",
-      "WHATSAPP_TEMPLATES_SYNC_SUCCESS": "Templates sync initiated successfully. It may take a couple of minutes to update.",
-      "UPDATE_PRE_CHAT_FORM_SETTINGS": "Update Pre Chat Form Settings"
+      "WHATSAPP_CONNECT_SUCCESS": "已成功連接到 WhatsApp Business！",
+      "WHATSAPP_CONNECT_ERROR": "連接 WhatsApp Business 失敗。請再試一次。",
+      "WHATSAPP_RECONFIGURE_SUCCESS": "已成功重新配置 WhatsApp Business！",
+      "WHATSAPP_RECONFIGURE_ERROR": "重新配置 WhatsApp Business 失敗。請再試一次。",
+      "WHATSAPP_APP_ID_MISSING": "未配置 WhatsApp 應用程式 ID。請聯絡您的管理員。",
+      "WHATSAPP_CONFIG_ID_MISSING": "未配置 WhatsApp 配置 ID。請聯絡您的管理員。",
+      "WHATSAPP_LOGIN_CANCELLED": "WhatsApp 登入已取消。請再試一次。",
+      "WHATSAPP_WEBHOOK_TITLE": "Webhook 驗證令牌",
+      "WHATSAPP_WEBHOOK_SUBHEADER": "此令牌用於驗證 Webhook 端點的真實性。",
+      "WHATSAPP_TEMPLATES_SYNC_TITLE": "同步模板",
+      "WHATSAPP_TEMPLATES_SYNC_SUBHEADER": "手動從 WhatsApp 同步訊息模板以更新您可用的模板。",
+      "WHATSAPP_TEMPLATES_SYNC_BUTTON": "同步模板",
+      "WHATSAPP_TEMPLATES_SYNC_SUCCESS": "模板同步已成功啟動。可能需要幾分鐘才能更新。",
+      "UPDATE_PRE_CHAT_FORM_SETTINGS": "更新預設聊天表單設定"
     },
     "HELP_CENTER": {
-      "LABEL": "Help Center",
-      "PLACEHOLDER": "Select Help Center",
-      "SELECT_PLACEHOLDER": "Select Help Center",
-      "REMOVE": "Remove Help Center",
-      "SUB_TEXT": "Attach a Help Center with the inbox"
+      "LABEL": "幫助中心",
+      "PLACEHOLDER": "選擇幫助中心",
+      "SELECT_PLACEHOLDER": "選擇幫助中心",
+      "REMOVE": "移除幫助中心",
+      "SUB_TEXT": "將幫助中心附加到收件匣"
     },
     "AUTO_ASSIGNMENT": {
-      "MAX_ASSIGNMENT_LIMIT": "Auto assignment limit",
-      "MAX_ASSIGNMENT_LIMIT_RANGE_ERROR": "Please enter a value greater than 0",
-      "MAX_ASSIGNMENT_LIMIT_SUB_TEXT": "Limit the maximum number of conversations from this inbox that can be auto assigned to an agent"
+      "MAX_ASSIGNMENT_LIMIT": "自動分配限制",
+      "MAX_ASSIGNMENT_LIMIT_RANGE_ERROR": "請輸入大於 0 的值",
+      "MAX_ASSIGNMENT_LIMIT_SUB_TEXT": "限制此收件匣中可自動分配給客服的最大對話數量"
     },
     "FACEBOOK_REAUTHORIZE": {
       "TITLE": "重新授權",
-      "SUBTITLE": "Your Facebook connection has expired, please reconnect your Facebook page to continue services",
+      "SUBTITLE": "您的 Facebook 連線已過期，請重新連接您的 Facebook 頁面以繼續服務",
       "MESSAGE_SUCCESS": "重新連接成功",
       "MESSAGE_ERROR": "出現錯誤，請重試"
     },
     "PRE_CHAT_FORM": {
-      "DESCRIPTION": "Pre chat forms enable you to capture user information before they start conversation with you.",
-      "SET_FIELDS": "Pre chat form fields",
+      "DESCRIPTION": "預設聊天表單使您能夠在客戶開始與您對話之前捕獲用戶資訊。",
+      "SET_FIELDS": "預設聊天表單欄位",
       "SET_FIELDS_HEADER": {
-        "FIELDS": "Fields",
-        "LABEL": "Label",
-        "PLACE_HOLDER": "Placeholder",
-        "KEY": "Key",
+        "FIELDS": "欄位",
+        "LABEL": "標籤",
+        "PLACE_HOLDER": "佔位符",
+        "KEY": "鍵",
         "TYPE": "類別",
-        "REQUIRED": "Required"
+        "REQUIRED": "必填"
       },
       "ENABLE": {
-        "LABEL": "Enable pre chat form",
+        "LABEL": "啟用預設聊天表單",
         "OPTIONS": {
           "ENABLED": "是",
           "DISABLED": "否"
         }
       },
       "PRE_CHAT_MESSAGE": {
-        "LABEL": "Pre chat message",
-        "PLACEHOLDER": "This message would be visible to the users along with the form"
+        "LABEL": "預設聊天訊息",
+        "PLACEHOLDER": "此訊息將與表單一起顯示給用戶"
       },
       "REQUIRE_EMAIL": {
-        "LABEL": "Visitors should provide their name and email address before starting the chat"
+        "LABEL": "訪客在開始聊天前應提供其姓名和電子郵件地址"
       }
     },
     "CSAT": {
-      "TITLE": "Enable CSAT",
-      "SUBTITLE": "Automatically trigger CSAT surveys at the end of conversations to understand how customers feel about their support experience. Track satisfaction trends and identify areas for improvement over time.",
+      "TITLE": "啟用 CSAT",
+      "SUBTITLE": "在對話結束時自動觸發 CSAT 調查，以了解客戶對其支援體驗的感受。追蹤滿意度趨勢並找出隨時間推移需要改進的領域。",
       "DISPLAY_TYPE": {
-        "LABEL": "Display type"
+        "LABEL": "顯示類型"
       },
       "MESSAGE": {
         "LABEL": "訊息",
-        "PLACEHOLDER": "Please enter a message to show users with the form"
+        "PLACEHOLDER": "請輸入要與表單一起顯示給用戶的訊息"
       },
       "SURVEY_RULE": {
-        "LABEL": "Survey rule",
-        "DESCRIPTION_PREFIX": "Send the survey if the conversation",
-        "DESCRIPTION_SUFFIX": "any of the labels",
+        "LABEL": "調查規則",
+        "DESCRIPTION_PREFIX": "如果對話",
+        "DESCRIPTION_SUFFIX": "包含任何標籤",
         "OPERATOR": {
           "CONTAINS": "包含",
           "DOES_NOT_CONTAINS": "不包含"
         },
-        "SELECT_PLACEHOLDER": "select labels"
+        "SELECT_PLACEHOLDER": "選擇標籤"
       },
-      "NOTE": "Note: CSAT surveys are sent only once per conversation",
+      "NOTE": "注意：CSAT 調查每個對話只發送一次",
       "API": {
-        "SUCCESS_MESSAGE": "CSAT settings updated successfully",
-        "ERROR_MESSAGE": "We couldn't update CSAT settings. Please try again later."
+        "SUCCESS_MESSAGE": "CSAT 設定已成功更新",
+        "ERROR_MESSAGE": "我們無法更新 CSAT 設定。請稍後再試。"
       }
     },
     "BUSINESS_HOURS": {
       "TITLE": "設定你的服務時間",
-      "SUBTITLE": "為你的 livechat 小工具設定服務時間",
-      "WEEKLY_TITLE": "Set your weekly hours",
+      "SUBTITLE": "在您的即時聊天小工具上設定您的可用性",
+      "WEEKLY_TITLE": "設定您的每週工時",
       "TIMEZONE_LABEL": "選擇時區",
-      "UPDATE": "更新服務時間設定",
-      "TOGGLE_AVAILABILITY": "啟用收件匣可用服務時間",
-      "UNAVAILABLE_MESSAGE_LABEL": "Unavailable message for visitors",
-      "TOGGLE_HELP": "Enabling business availability will show the available hours on live chat widget even if all the agents are offline. Outside available hours visitors can be warned with a message and a pre-chat form.",
+      "UPDATE": "更新營業時間設定",
+      "TOGGLE_AVAILABILITY": "為此收件匣啟用業務可用性",
+      "UNAVAILABLE_MESSAGE_LABEL": "訪客不可用訊息",
+      "TOGGLE_HELP": "啟用業務可用性將在即時聊天小工具上顯示可用時間，即使所有客服都離線。在可用時間之外，訪客可以收到訊息和預設聊天表單的警告。",
       "DAY": {
-        "ENABLE": "Enable availability for this day",
+        "ENABLE": "啟用此日的可用性",
         "UNAVAILABLE": "無法使用",
         "HOURS": "小時",
-        "VALIDATION_ERROR": "開始時間必須在關閉時間之前",
+        "VALIDATION_ERROR": "開始時間應在結束時間之前。",
         "CHOOSE": "選擇"
       },
-      "ALL_DAY": "All-Day"
+      "ALL_DAY": "全天"
     },
     "IMAP": {
       "TITLE": "IMAP",
-      "SUBTITLE": "Set your IMAP details",
-      "NOTE_TEXT": "To enable SMTP, please configure IMAP.",
-      "UPDATE": "Update IMAP settings",
-      "TOGGLE_AVAILABILITY": "Enable IMAP configuration for this inbox",
-      "TOGGLE_HELP": "Enabling IMAP will help the user to receive email",
+      "SUBTITLE": "設定您的 IMAP 詳細資訊",
+      "NOTE_TEXT": "要啟用 SMTP，請配置 IMAP。",
+      "UPDATE": "更新 IMAP 設定",
+      "TOGGLE_AVAILABILITY": "為此收件匣啟用 IMAP 配置",
+      "TOGGLE_HELP": "啟用 IMAP 將幫助用戶接收電子郵件",
       "EDIT": {
-        "SUCCESS_MESSAGE": "IMAP settings updated successfully",
-        "ERROR_MESSAGE": "Unable to update IMAP settings"
+        "SUCCESS_MESSAGE": "IMAP 設定已成功更新",
+        "ERROR_MESSAGE": "無法更新 IMAP 設定"
       },
       "ADDRESS": {
-        "LABEL": "Address",
-        "PLACE_HOLDER": "Address (Eg: imap.gmail.com)"
+        "LABEL": "地址",
+        "PLACE_HOLDER": "地址 (例如：imap.gmail.com)"
       },
       "PORT": {
-        "LABEL": "Port",
-        "PLACE_HOLDER": "Port"
+        "LABEL": "埠",
+        "PLACE_HOLDER": "埠"
       },
       "LOGIN": {
         "LABEL": "登入",
@@ -857,25 +857,25 @@
     },
     "MICROSOFT": {
       "TITLE": "Microsoft",
-      "SUBTITLE": "Reauthorize your MICROSOFT account"
+      "SUBTITLE": "重新授權您的 MICROSOFT 帳戶"
     },
     "SMTP": {
       "TITLE": "SMTP",
       "SUBTITLE": "設定你的 SMTP",
       "UPDATE": "更新 SMTP 設定",
-      "TOGGLE_AVAILABILITY": "Enable SMTP configuration for this inbox",
-      "TOGGLE_HELP": "Enabling SMTP will help the user to send email",
+      "TOGGLE_AVAILABILITY": "為此收件匣啟用 SMTP 配置",
+      "TOGGLE_HELP": "啟用 SMTP 將幫助用戶發送電子郵件",
       "EDIT": {
-        "SUCCESS_MESSAGE": "SMTP settings updated successfully",
-        "ERROR_MESSAGE": "Unable to update SMTP settings"
+        "SUCCESS_MESSAGE": "SMTP 設定已成功更新",
+        "ERROR_MESSAGE": "無法更新 SMTP 設定"
       },
       "ADDRESS": {
-        "LABEL": "Address",
-        "PLACE_HOLDER": "Address (Eg: smtp.gmail.com)"
+        "LABEL": "地址",
+        "PLACE_HOLDER": "地址 (例如：smtp.gmail.com)"
       },
       "PORT": {
-        "LABEL": "Port",
-        "PLACE_HOLDER": "Port"
+        "LABEL": "埠",
+        "PLACE_HOLDER": "埠"
       },
       "LOGIN": {
         "LABEL": "登入",
@@ -886,77 +886,77 @@
         "PLACE_HOLDER": "密碼"
       },
       "DOMAIN": {
-        "LABEL": "Domain",
-        "PLACE_HOLDER": "Domain"
+        "LABEL": "網域",
+        "PLACE_HOLDER": "網域"
       },
-      "ENCRYPTION": "Encryption",
+      "ENCRYPTION": "加密",
       "SSL_TLS": "SSL/TLS",
       "START_TLS": "STARTTLS",
-      "OPEN_SSL_VERIFY_MODE": "Open SSL Verify Mode",
-      "AUTH_MECHANISM": "Authentication"
+      "OPEN_SSL_VERIFY_MODE": "Open SSL 驗證模式",
+      "AUTH_MECHANISM": "驗證"
     },
-    "NOTE": "Note: ",
+    "NOTE": "注意： ",
     "WIDGET_BUILDER": {
       "WIDGET_OPTIONS": {
         "AVATAR": {
-          "LABEL": "Website Avatar",
+          "LABEL": "網站頭像",
           "DELETE": {
             "API": {
-              "SUCCESS_MESSAGE": "Avatar deleted successfully",
+              "SUCCESS_MESSAGE": "頭像已成功刪除",
               "ERROR_MESSAGE": "出現錯誤，請重試"
             }
           }
         },
         "WEBSITE_NAME": {
           "LABEL": "網站名稱",
-          "PLACE_HOLDER": "輸入您的網站名稱 (e.g: Acme Inc)",
-          "ERROR": "Please enter a valid website name"
+          "PLACE_HOLDER": "輸入您的網站名稱 (例如：Acme Inc)",
+          "ERROR": "請輸入有效的網站名稱"
         },
         "WELCOME_HEADING": {
           "LABEL": "歡迎標題：",
-          "PLACE_HOLDER": "Hi there!"
+          "PLACE_HOLDER": "嗨！"
         },
         "WELCOME_TAGLINE": {
           "LABEL": "歡迎標籤行",
-          "PLACE_HOLDER": "如有疑問，請聯繫我們"
+          "PLACE_HOLDER": "我們讓您輕鬆與我們聯繫。詢問我們任何問題，或分享您的意見回饋。"
         },
         "REPLY_TIME": {
-          "LABEL": "Reply Time",
+          "LABEL": "回覆時間",
           "IN_A_FEW_MINUTES": "幾分鐘內",
           "IN_A_FEW_HOURS": "幾小時內",
           "IN_A_DAY": "一天內"
         },
         "WIDGET_COLOR_LABEL": "視窗小元件顏色",
-        "WIDGET_BUBBLE_POSITION_LABEL": "Widget Bubble Position",
-        "WIDGET_BUBBLE_TYPE_LABEL": "Widget Bubble Type",
+        "WIDGET_BUBBLE_POSITION_LABEL": "小工具氣泡位置",
+        "WIDGET_BUBBLE_TYPE_LABEL": "小工具氣泡類型",
         "WIDGET_BUBBLE_LAUNCHER_TITLE": {
           "DEFAULT": "與我們對話",
-          "LABEL": "Widget Bubble Launcher Title",
+          "LABEL": "小工具氣泡啟動器標題",
           "PLACE_HOLDER": "與我們對話"
         },
         "UPDATE": {
-          "BUTTON_TEXT": "Update Widget Settings",
+          "BUTTON_TEXT": "更新小工具設定",
           "API": {
-            "SUCCESS_MESSAGE": "Widget settings updated successfully",
-            "ERROR_MESSAGE": "Unable to update widget settings"
+            "SUCCESS_MESSAGE": "小工具設定已成功更新",
+            "ERROR_MESSAGE": "無法更新小工具設定"
           }
         },
         "WIDGET_VIEW_OPTION": {
-          "PREVIEW": "Preview",
-          "SCRIPT": "Script"
+          "PREVIEW": "預覽",
+          "SCRIPT": "腳本"
         },
         "WIDGET_BUBBLE_POSITION": {
-          "LEFT": "Left",
-          "RIGHT": "Right"
+          "LEFT": "左",
+          "RIGHT": "右"
         },
         "WIDGET_BUBBLE_TYPE": {
-          "STANDARD": "Standard",
-          "EXPANDED_BUBBLE": "Expanded Bubble"
+          "STANDARD": "標準",
+          "EXPANDED_BUBBLE": "展開氣泡"
         }
       },
       "WIDGET_SCREEN": {
-        "DEFAULT": "Default",
-        "CHAT": "Chat"
+        "DEFAULT": "預設",
+        "CHAT": "聊天"
       },
       "REPLY_TIME": {
         "IN_A_FEW_MINUTES": "通常在幾分鐘內回覆",
@@ -969,42 +969,42 @@
       },
       "BODY": {
         "TEAM_AVAILABILITY": {
-          "ONLINE": "We are Online",
+          "ONLINE": "我們在線上",
           "OFFLINE": "我們目前不在線上"
         },
-        "USER_MESSAGE": "Hi",
-        "AGENT_MESSAGE": "Hello"
+        "USER_MESSAGE": "嗨",
+        "AGENT_MESSAGE": "哈囉"
       },
-      "BRANDING_TEXT": "Powered by Chatwoot",
+      "BRANDING_TEXT": "由 Chatwoot 提供支援",
       "SCRIPT_SETTINGS": "\n      window.chatwootSettings = {options};"
     },
     "EMAIL_PROVIDERS": {
       "MICROSOFT": {
         "TITLE": "Microsoft",
-        "DESCRIPTION": "Connect with Microsoft"
+        "DESCRIPTION": "連接 Microsoft"
       },
       "GOOGLE": {
         "TITLE": "Google",
-        "DESCRIPTION": "Connect with Google"
+        "DESCRIPTION": "連接 Google"
       },
       "OTHER_PROVIDERS": {
-        "TITLE": "Other Providers",
-        "DESCRIPTION": "Connect with Other Providers"
+        "TITLE": "其他提供者",
+        "DESCRIPTION": "連接其他提供者"
       }
     },
     "CHANNELS": {
       "MESSENGER": "Messenger",
-      "WEB_WIDGET": "Website",
+      "WEB_WIDGET": "網站",
       "TWITTER_PROFILE": "Twitter",
-      "TWILIO_SMS": "Twilio SMS",
+      "TWILIO_SMS": "Twilio 簡訊",
       "WHATSAPP": "WhatsApp",
-      "SMS": "SMS",
-      "EMAIL": "Email",
+      "SMS": "簡訊",
+      "EMAIL": "電子郵件",
       "TELEGRAM": "Telegram",
       "LINE": "Line",
       "API": "API 頻道",
       "INSTAGRAM": "Instagram",
-      "VOICE": "Voice"
+      "VOICE": "語音"
     }
   }
 }

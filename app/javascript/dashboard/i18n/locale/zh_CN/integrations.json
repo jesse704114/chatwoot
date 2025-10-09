@@ -1,49 +1,64 @@
 {
-  "INTEGRATION_SETTINGS": {
-    "SHOPIFY": {
-      "DELETE": {
-        "TITLE": "Delete Shopify Integration",
-        "MESSAGE": "Are you sure you want to delete the Shopify integration?"
-      },
-      "STORE_URL": {
-        "TITLE": "Connect Shopify Store",
-        "LABEL": "Store URL",
-        "PLACEHOLDER": "your-store.myshopify.com",
-        "HELP": "Enter your Shopify store's myshopify.com URL",
-        "CANCEL": "取消",
-        "SUBMIT": "Connect Store"
-      },
-      "ERROR": "There was an error connecting to Shopify. Please try again or contact support if the issue persists."
-    },
-    "HEADER": "集成设置",
-    "DESCRIPTION": "Chatwoot 集成了多种工具和服务，以提高团队效率。浏览以下列表以配置您喜欢的应用程序。",
-    "LEARN_MORE": "了解更多关于集成的信息",
-    "LOADING": "正在获取集成",
-    "CAPTAIN": {
-      "DISABLED": "您的账户未启用 Captain。",
-      "CLICK_HERE_TO_CONFIGURE": "点击此处配置",
-      "LOADING_CONSOLE": "正在加载 Captain 控制台……",
-      "FAILED_TO_LOAD_CONSOLE": "加载 Captain 控制台失败。请刷新页面并重试。"
-    },
+  "INTEGRATIONS": {
     "WEBHOOK": {
-      "SUBSCRIBED_EVENTS": "订阅事件",
-      "LEARN_MORE": "了解更多关于 Webhooks 的信息",
-      "FORM": {
+      "TITLE": "Webhook",
+      "HEADER": "Webhook 事件",
+      "HEADER_BTN_TXT": "新增 Webhook",
+      "LOADING": "正在获取已附加的 webhooks",
+      "SEARCH_404": "没有与此查询匹配的项目",
+      "SIDEBAR_TXT": "<p><b>Webhooks</b></p><p>Webhooks 允许您将 Chatwoot 中发生的实时事件通知发送到外部服务。您可以设置一个 webhook，将对话创建等事件推送到您选择的服务，例如 Slack 或 Github.<br /><br />要创建一个 <b>webhook</b>，请点击 <b>新增 Webhook</b> 按钮。您还可以随时通过点击设置图标来删除或禁用任何现有的 webhook。</p>",
+      "LIST": {
+        "404": "此帐户没有配置 webhooks。",
+        "TITLE": "管理 Webhooks",
+        "DESC": "Webhooks 允许您将有关 Chatwoot 中发生的事情的实时信息发送到外部应用程序。",
+        "TABLE_HEADER": {
+          "END_POINT": "Webhook 地址",
+          "ACTIONS": "操作"
+        }
+      },
+      "ADD": {
+        "TITLE": "添加新的 webhook",
+        "DESC": "Webhook 事件为您提供有关您帐户中发生的事情的实时信息。请输入一个有效的 URL 以配置回调。",
         "CANCEL": "取消",
-        "DESC": "Webhook 事件为您提供了有关 Chatwoot 账户中发生的事情的实时信息。请输入一个有效的 URL 来配置回调。",
+        "SUBMIT": "创建"
+      },
+      "DELETE": {
+        "TITLE": "删除 Webhook",
+        "DESC": "您确定要删除此 webhook 吗？此操作不可逆转。",
+        "YES": "是，删除",
+        "NO": "否，保留",
+        "API": {
+          "SUCCESS_MESSAGE": "Webhook 删除成功",
+          "ERROR_MESSAGE": "无法删除 Webhook，请重试"
+        }
+      },
+      "EDIT": {
+        "TITLE": "编辑 Webhook",
+        "DESC": "Webhook 事件为您提供有关您帐户中发生的事情的实时信息。请输入一个有效的 URL 以配置回调。",
+        "CANCEL": "取消",
+        "SUBMIT": "更新",
+        "API": {
+          "SUCCESS_MESSAGE": "Webhook 更新成功",
+          "ERROR_MESSAGE": "无法更新 Webhook，请重试"
+        }
+      },
+      "FORM": {
+        "END_POINT": {
+          "LABEL": "Webhook 地址",
+          "PLACEHOLDER": "示例：https://example.com/api/webhook",
+          "ERROR": "请输入一个有效的 URL"
+        },
         "SUBSCRIPTIONS": {
           "LABEL": "事件",
           "EVENTS": {
-            "CONVERSATION_CREATED": "对话创建",
+            "CONVERSATION_CREATED": "对话已创建",
             "CONVERSATION_STATUS_CHANGED": "对话状态已更改",
             "CONVERSATION_UPDATED": "对话已更新",
             "MESSAGE_CREATED": "消息已创建",
             "MESSAGE_UPDATED": "消息已更新",
-            "WEBWIDGET_TRIGGERED": "用户打开实时聊天小部件",
+            "WEBWIDGET_TRIGGERED": "聊天小部件已触发",
             "CONTACT_CREATED": "联系人已创建",
-            "CONTACT_UPDATED": "联系人已更新",
-            "CONVERSATION_TYPING_ON": "对话输入开启",
-            "CONVERSATION_TYPING_OFF": "对话输入关闭"
+            "CONTACT_UPDATED": "联系人已更新"
           }
         },
         "NAME": {
@@ -104,236 +119,40 @@
       }
     },
     "SLACK": {
-      "DELETE": "删除",
-      "DELETE_CONFIRMATION": {
-        "TITLE": "删除集成",
-        "MESSAGE": "您确定要删除该集成吗？这样做将导致您无法在 Slack 工作区中访问对话。"
-      },
       "HELP_TEXT": {
-        "TITLE": "使用 Slack 集成？",
-        "BODY": "通过此集成，所有传入的对话将同步到您的 Slack 工作区中的 ***{selectedChannelName}*** 频道。您可以直接在频道中管理所有客户对话，再也不会错过任何消息。\n\n以下是该集成的主要功能：\n\n**从 Slack 回复对话：** 要在 ***{selectedChannelName}*** Slack 频道中回复对话，只需输入您的消息并将其作为线程发送。这将通过 Chatwoot 创建对客户的回复。就是这么简单！\n\n**创建私密笔记：** 如果您想创建私密笔记而不是回复，请在消息开头加上 ***`note:`***。这将确保您的消息保持私密，不会对客户可见。\n\n**关联客服资料：** 如果在 Slack 上回复的人拥有与 Chatwoot 中相同电子邮件的客服资料，回复将自动与该客服资料关联。这意味着您可以轻松跟踪谁在何时说了什么。另一方面，如果回复者没有关联的客服资料，回复将显示为机器人资料。",
-        "SELECTED": "已选择"
-      },
-      "SELECT_CHANNEL": {
-        "OPTION_LABEL": "选择一个频道",
-        "UPDATE": "更新",
-        "BUTTON_TEXT": "连接频道",
-        "DESCRIPTION": "您的 Slack 工作区现已与 Chatwoot 连接。但是，集成当前处于非活动状态。要激活集成并将频道连接到 Chatwoot，请点击下面的按钮。\n\n**注意：** 如果您尝试连接私有频道，请在进行此步骤之前将 Chatwoot 应用添加到 Slack 频道。",
-        "ATTENTION_REQUIRED": "需要关注",
-        "EXPIRED": "您的 Slack 集成已过期。要继续在 Slack 上接收消息，请删除该集成并重新连接您的工作区。"
-      },
-      "UPDATE_ERROR": "更新集成时出错，请重试",
-      "UPDATE_SUCCESS": "频道连接成功",
-      "FAILED_TO_FETCH_CHANNELS": "获取 Slack 频道时出错，请重试"
+        "TITLE": "使用 Slack 集成",
+        "BODY": "<p>Chatwoot 将会把所有收到的新对话同步到您配置的 Slack 频道中。</p><p>您可以通过点击<b>添加到 Slack</b>按钮来设置您的集成。</p><p>在授权过程中，Chatwoot 会请求在您的 Slack 工作区中执行操作的权限。</p><p>一旦您授权了该应用，Chatwoot 将开始将对话同步到您选择的频道。</p><p>在 Slack 中，您可以通过回复对话串来回复客户的消息。</p>"
+      }
     },
     "DYTE": {
-      "CLICK_HERE_TO_JOIN": "点击此处加入",
-      "LEAVE_THE_ROOM": "离开房间",
-      "START_VIDEO_CALL_HELP_TEXT": "与客户开始新的视频通话",
-      "JOIN_ERROR": "加入通话时出错，请重试",
-      "CREATE_ERROR": "创建会议链接时出错，请重试"
-    },
-    "OPEN_AI": {
-      "AI_ASSIST": "AI 助手",
-      "WITH_AI": " 使用 AI {option} ",
-      "OPTIONS": {
-        "REPLY_SUGGESTION": "回复建议",
-        "SUMMARIZE": "总结",
-        "REPHRASE": "改进写作",
-        "FIX_SPELLING_GRAMMAR": "修正拼写和语法",
-        "SHORTEN": "缩短",
-        "EXPAND": "扩展",
-        "MAKE_FRIENDLY": "将消息语气改为友好",
-        "MAKE_FORMAL": "使用正式语气",
-        "SIMPLIFY": "简化"
+      "TITLE": "Dyte",
+      "DESCRIPTION": "Dyte 是一个将音视频功能集成到您的应用程序中的产品。通过此集成，您的客服可以直接从 Chatwoot 与客户进行音视频通话。",
+      "ACCOUNT_ID": {
+        "LABEL": "Dyte 组织 ID",
+        "PLACEHOLDER": "请输入您的 Dyte 组织 ID",
+        "ERROR": "请输入一个有效的组织 ID"
       },
-      "ASSISTANCE_MODAL": {
-        "DRAFT_TITLE": "草稿内容",
-        "GENERATED_TITLE": "生成内容",
-        "AI_WRITING": "AI 正在写作",
-        "BUTTONS": {
-          "APPLY": "使用此建议",
-          "CANCEL": "取消"
-        }
+      "API_KEY": {
+        "LABEL": "Dyte API 密钥",
+        "PLACEHOLDER": "请输入您的 Dyte API 密钥",
+        "ERROR": "请输入一个有效的 API 密钥"
       },
-      "CTA_MODAL": {
-        "TITLE": "集成 OpenAI",
-        "DESC": "通过 OpenAI 的 GPT 模型为您的仪表板带来高级 AI 功能。要开始，请输入您 OpenAI 账户的 API 密钥。",
-        "KEY_PLACEHOLDER": "输入您的 OpenAI API 密钥",
-        "BUTTONS": {
-          "NEED_HELP": "需要帮助？",
-          "DISMISS": "取消",
-          "FINISH": "完成设置"
-        },
-        "DISMISS_MESSAGE": "您可以稍后随时设置 OpenAI 集成。",
-        "SUCCESS_MESSAGE": "OpenAI 集成设置成功"
-      },
-      "TITLE": "通过 AI 改进",
-      "SUMMARY_TITLE": "通过 AI 总结",
-      "REPLY_TITLE": "通过 AI 回复建议",
-      "SUBTITLE": "将根据您的当前草稿生成改进的回复。",
-      "TONE": {
-        "TITLE": "语气",
-        "OPTIONS": {
-          "PROFESSIONAL": "专业",
-          "FRIENDLY": "友好"
-        }
-      },
-      "BUTTONS": {
-        "GENERATE": "生成",
-        "GENERATING": "生成中...",
-        "CANCEL": "取消"
-      },
-      "GENERATE_ERROR": "处理内容时出错，请重试"
-    },
-    "DELETE": {
-      "BUTTON_TEXT": "删除",
-      "API": {
-        "SUCCESS_MESSAGE": "集成已成功删除"
-      }
-    },
-    "CONNECT": {
-      "BUTTON_TEXT": "连接"
-    },
-    "DASHBOARD_APPS": {
-      "TITLE": "仪表板应用",
-      "HEADER_BTN_TXT": "添加新的仪表板应用",
-      "SIDEBAR_TXT": "<p><b>仪表板应用</b></p><p>仪表板应用允许组织将应用程序嵌入 Chatwoot 仪表板中，以便为客服人员提供上下文信息。此功能允许您独立创建应用程序并将其嵌入仪表板中，以提供用户信息、他们的订单或以前的付款历史记录。</p><p>当您使用 Chatwoot 仪表板嵌入应用程序时，您的应用程序将作为窗口事件获取对话和联系人的上下文信息。在您的页面上实现消息事件的监听器以接收上下文信息。</p><p>要添加新的仪表板应用，请点击“添加新的仪表板应用”按钮。</p>",
-      "DESCRIPTION": "仪表板应用允许组织将应用程序嵌入仪表板中，以便为客服人员提供上下文信息。此功能允许您独立创建应用程序并将其嵌入仪表板中，以提供用户信息、他们的订单或以前的付款历史记录。",
-      "LEARN_MORE": "了解更多关于仪表板应用的信息",
-      "LIST": {
-        "404": "此账户尚未配置任何仪表板应用",
-        "LOADING": "正在获取仪表板应用...",
-        "TABLE_HEADER": {
-          "NAME": "姓名",
-          "ENDPOINT": "端点"
-        },
-        "EDIT_TOOLTIP": "编辑应用",
-        "DELETE_TOOLTIP": "删除应用"
-      },
-      "FORM": {
-        "TITLE_LABEL": "姓名",
-        "TITLE_PLACEHOLDER": "输入您的仪表板应用的名称",
-        "TITLE_ERROR": "仪表板应用的名称是必需的",
-        "URL_LABEL": "端点",
-        "URL_PLACEHOLDER": "输入您的应用托管的端点 URL",
-        "URL_ERROR": "需要有效的 URL"
-      },
-      "CREATE": {
-        "HEADER": "添加新的仪表板应用",
-        "FORM_SUBMIT": "提交",
-        "FORM_CANCEL": "取消",
-        "API_SUCCESS": "仪表板应用配置成功",
-        "API_ERROR": "无法创建应用，请稍后重试"
-      },
-      "UPDATE": {
-        "HEADER": "编辑仪表板应用",
-        "FORM_SUBMIT": "更新",
-        "FORM_CANCEL": "取消",
-        "API_SUCCESS": "仪表板应用更新成功",
-        "API_ERROR": "无法更新应用，请稍后重试"
-      },
-      "DELETE": {
-        "CONFIRM_YES": "是，删除它",
-        "CONFIRM_NO": "否，保留它",
-        "TITLE": "确认删除",
-        "MESSAGE": "您确定要删除该应用 - {appName} 吗？",
-        "API_SUCCESS": "仪表板应用删除成功",
-        "API_ERROR": "无法删除应用，请稍后重试"
-      }
+      "SUBMIT": "连接",
+      "DISCONNECT": "断开连接",
+      "SUCCESS_MESSAGE": "已成功连接 Dyte",
+      "DISCONNECT_SUCCESS_MESSAGE": "已成功断开 Dyte 连接",
+      "ERROR_MESSAGE": "无法连接 Dyte，请检查您的凭据并重试"
     },
     "LINEAR": {
-      "ADD_OR_LINK_BUTTON": "创建/链接 Linear 问题",
-      "LOADING": "正在获取 Linear 问题...",
-      "LOADING_ERROR": "获取 Linear 问题时出错，请重试",
-      "CREATE": "创建",
-      "LINK": {
-        "SEARCH": "搜索问题",
-        "SELECT": "选择问题",
-        "TITLE": "链接",
-        "EMPTY_LIST": "未找到 Linear 问题",
-        "LOADING": "加载中",
-        "ERROR": "获取 Linear 问题时出错，请重试",
-        "LINK_SUCCESS": "问题链接成功",
-        "LINK_ERROR": "链接问题时出错，请重试",
-        "LINK_TITLE": "对话 (#{conversationId}) 与 {name}"
+      "HELP_TEXT": {
+        "TITLE": "使用 Linear 集成",
+        "BODY": "<p>Chatwoot 与 Linear 集成，允许您直接从对话中创建 Linear 问题。</p><p>要将您的 Chatwoot 帐户与 Linear 集成，请按照以下步骤操作：</p><p><b>第 1 步：</b>前往您的 Linear 帐户中的 <a target=\"_blank\" href=\"https://linear.app/chatwoot/settings/api\">API 设置</a>。</p><p><b>第 2 步：</b>复制<b>个人 API 密钥</b>。</p><p><b>第 3 步：</b>在 Chatwoot 中，转到集成设置并点击 Linear 旁边的<b>连接</b>。</p><p><b>第 4 步：</b>将 API 密钥粘贴到输入字段中，然后点击<b>连接</b>。</p><p>就是这样！您现在可以在对话侧边栏中创建和链接 Linear 问题了。</p>"
       },
-      "ADD_OR_LINK": {
-        "TITLE": "创建/链接 Linear 问题",
-        "DESCRIPTION": "从对话中创建 Linear 问题，或链接现有问题以进行无缝跟踪。",
-        "FORM": {
-          "TITLE": {
-            "LABEL": "标题",
-            "PLACEHOLDER": "输入标题",
-            "REQUIRED_ERROR": "标题是必填项"
-          },
-          "DESCRIPTION": {
-            "LABEL": "描述",
-            "PLACEHOLDER": "输入描述"
-          },
-          "TEAM": {
-            "LABEL": "团队",
-            "PLACEHOLDER": "选择团队",
-            "SEARCH": "搜索团队",
-            "REQUIRED_ERROR": "团队是必填项"
-          },
-          "ASSIGNEE": {
-            "LABEL": "负责人",
-            "PLACEHOLDER": "选择负责人",
-            "SEARCH": "搜索负责人"
-          },
-          "PRIORITY": {
-            "LABEL": "优先级",
-            "PLACEHOLDER": "选择优先级",
-            "SEARCH": "搜索优先级"
-          },
-          "LABEL": {
-            "LABEL": "标签",
-            "PLACEHOLDER": "选择标签",
-            "SEARCH": "搜索标签"
-          },
-          "STATUS": {
-            "LABEL": "状态",
-            "PLACEHOLDER": "选择状态",
-            "SEARCH": "搜索状态"
-          },
-          "PROJECT": {
-            "LABEL": "项目",
-            "PLACEHOLDER": "选择项目",
-            "SEARCH": "搜索项目"
-          }
-        },
-        "CREATE": "创建",
-        "CANCEL": "取消",
-        "CREATE_SUCCESS": "问题创建成功",
-        "CREATE_ERROR": "创建问题时出错，请重试",
-        "LOADING_TEAM_ERROR": "获取团队时出错，请重试",
-        "LOADING_TEAM_ENTITIES_ERROR": "获取团队实体时出错，请重试"
-      },
-      "ISSUE": {
-        "STATUS": "状态",
-        "PRIORITY": "优先级",
-        "ASSIGNEE": "负责人",
-        "LABELS": "标签",
-        "CREATED_AT": "创建于 {createdAt}"
-      },
-      "UNLINK": {
-        "TITLE": "取消链接",
-        "SUCCESS": "问题取消链接成功",
-        "ERROR": "取消链接问题时出错，请重试"
-      },
-      "NO_LINKED_ISSUES": "No linked issues found",
-      "DELETE": {
-        "TITLE": "您确定要删除该集成吗？",
-        "MESSAGE": "您确定要删除该集成吗？",
-        "CONFIRM": "是，删除",
-        "CANCEL": "取消"
-      },
-      "CTA": {
-        "TITLE": "连接到 Linear",
-        "AGENT_DESCRIPTION": "Linear 工作区未集成。请通知您的管理员连接一个工作区来使用这个集成。",
-        "DESCRIPTION": "Linear workspace is not connected. Click the button below to connect your workspace to use this integration.",
-        "BUTTON_TEXT": "链接 Linear 工作空间"
+      "FORM": {
+        "API_KEY": {
+          "LABEL": "Linear API 密钥",
+          "PLACEHOLDER": "请输入您的 Linear API 密钥"
+        }
       }
     },
     "NOTION": {

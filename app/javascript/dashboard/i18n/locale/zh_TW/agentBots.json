@@ -3,7 +3,7 @@
     "HEADER": "機器人",
     "LOADING_EDITOR": "正在載入編輯器...",
     "DESCRIPTION": "代理機器人就像您團隊中最出色的成員。他們可以處理瑣碎的事務，讓您可以專注於重要的事情。試試看吧！您可以從此頁面管理您的機器人，或使用「新增機器人」按鈕建立新的機器人。",
-    "LEARN_MORE": "Learn about agent bots",
+    "LEARN_MORE": "了解代理機器人",
     "GLOBAL_BOT": "系統機器人",
     "GLOBAL_BOT_BADGE": "系統",
     "AVATAR": {
@@ -25,8 +25,8 @@
       "TITLE": "新增機器人",
       "CANCEL_BUTTON_TEXT": "取消",
       "API": {
-        "SUCCESS_MESSAGE": "機器人新增成功.",
-        "ERROR_MESSAGE": "無法新增機器人，請稍後再試."
+        "SUCCESS_MESSAGE": "機器人新增成功。",
+        "ERROR_MESSAGE": "無法新增機器人，請稍後再試。"
       }
     },
     "LIST": {
@@ -55,7 +55,7 @@
       "BUTTON_TEXT": "編輯",
       "TITLE": "編輯機器人",
       "API": {
-        "SUCCESS_MESSAGE": "機器人更新成功.",
+        "SUCCESS_MESSAGE": "機器人更新成功。",
         "ERROR_MESSAGE": "無法更新機器人，請稍後再試"
       }
     },

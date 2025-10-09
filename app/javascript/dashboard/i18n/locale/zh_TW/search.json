@@ -1,32 +1,32 @@
 {
   "SEARCH": {
     "TABS": {
-      "ALL": "所有的",
+      "ALL": "全部",
       "CONTACTS": "聯絡人",
       "CONVERSATIONS": "對話",
       "MESSAGES": "訊息",
-      "ARTICLES": "Articles"
+      "ARTICLES": "文章"
     },
     "SECTION": {
       "CONTACTS": "聯絡人",
       "CONVERSATIONS": "對話",
       "MESSAGES": "訊息",
-      "ARTICLES": "Articles"
+      "ARTICLES": "文章"
     },
-    "VIEW_MORE": "View more",
-    "LOAD_MORE": "Load more",
-    "SEARCHING_DATA": "Searching",
-    "LOADING_DATA": "Loading",
-    "EMPTY_STATE": "No {item} found for query '{query}'",
-    "EMPTY_STATE_FULL": "查無 {query} 條件的結果",
-    "PLACEHOLDER_KEYBINDING": "/ to focus",
-    "INPUT_PLACEHOLDER": "Type 3 or more characters to search",
-    "EMPTY_STATE_DEFAULT": "Search by conversation id, email, phone number, messages for better search results. ",
+    "VIEW_MORE": "查看更多",
+    "LOAD_MORE": "載入更多",
+    "SEARCHING_DATA": "正在搜尋",
+    "LOADING_DATA": "正在載入",
+    "EMPTY_STATE": "找不到符合查詢條件 '{query}' 的 {item}",
+    "EMPTY_STATE_FULL": "查無符合 '{query}' 條件的結果",
+    "PLACEHOLDER_KEYBINDING": "按 / 鍵進行搜尋",
+    "INPUT_PLACEHOLDER": "輸入 3 個或更多字元進行搜尋",
+    "EMPTY_STATE_DEFAULT": "請透過對話 ID、Email、電話號碼、訊息進行搜尋，以獲得更好的搜尋結果。",
     "BOT_LABEL": "機器人",
-    "READ_MORE": "Read more",
-    "WROTE": "wrote:",
-    "FROM": "from",
-    "EMAIL": "email",
+    "READ_MORE": "閱讀更多",
+    "WROTE": "寫道：",
+    "FROM": "來自",
+    "EMAIL": "Email",
     "EMAIL_SUBJECT": "主旨"
   }
 }
